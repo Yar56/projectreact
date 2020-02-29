@@ -1,0 +1,19 @@
+.wrapperTabs
+	display: grid
+	grid-template-columns: 30% 70%
+	grid-row-gap: 20px
+	grid-column-gap: 20px
+	.firstColumn
+		display: grid
+		grid-template-columns: 100%
+		grid-template-rows: 30% 30% 20% 20%
+		grid-template-areas: "profphoto" "friends" "audio" "video"
+		grid-row-gap: 20px
+	.secondColumn
+		display: grid
+		grid-template-columns: 100%
+
+		grid-template-areas: "profinfo" "photos" "createpost" "posts"
+		grid-row-gap: 20px
+	p
+		margin: 0

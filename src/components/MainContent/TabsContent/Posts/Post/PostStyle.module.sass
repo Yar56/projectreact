@@ -1,0 +1,70 @@
+.post
+	height: 520px
+	width: 100%
+	background-color: #333336!important
+	border-color: #333336!important
+	border-radius: 7px
+	grid-area: post
+	margin-top: 30px
+	display: grid
+	grid-template-rows: 0.6fr 7fr 1fr
+
+	.info
+		display: grid
+		padding: 15px 15px 0 15px
+		grid-template-columns: 1fr 6fr 1fr
+		align-items: center
+		position: relative
+		.logo
+			img
+				height: 60px
+				width: 60px
+				border-radius: 100%
+		.name
+			margin-left: 3%
+			align-self: baseline
+			a
+				display: block
+				text-decoration: none
+				color: #fff
+				margin: 5px
+				&:hover
+					text-decoration: underline
+		.dropDown
+			justify-self: end
+			img
+				cursor: pointer
+			img
+				height: 30px
+				width: 30px
+		.dropContent
+			display: none
+			position: absolute
+			top: 85%
+			right: 3%
+			text-align: left
+			background-color: #444446 !important
+			border-color: #333336!important
+			border-radius: 7px
+			.dropWrap
+				display: flex
+				flex-direction: column
+				justify-content: space-around
+				align-items: self-start
+				height: 11rem
+				width: 12rem
+				padding: 6%
+	.content
+		display: flex
+		flex-direction: column
+
+		.title
+		img
+			height: 100%
+	.actions
+		display: grid
+		grid-template-columns: 0.1fr 0.1fr 0.1fr
+		grid-template-rows: 50px
+		align-items: center
+		div
+			justify-self: center

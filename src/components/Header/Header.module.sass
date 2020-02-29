@@ -1,0 +1,81 @@
+@mixin hover ()
+	color: #ffffff
+	transition: 0.9s
+
+.header
+	position: fixed
+	top: 0
+	width: 100%
+	background-color: #333336!important
+	border-color: #333336!important
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.35)!important
+	.content
+		display: grid
+		grid-template-columns: 17% 27% 7% 40% 11%
+		grid-template-rows: minmax(50px, 100%)
+		width: 65%
+		margin: 0 auto
+		align-items: center
+		.logo
+			img
+
+		.search
+			width: 100%
+			input
+				width: 85%
+				border-radius: 10px
+				border: none
+				background-color: grey
+				outline: none
+				height: 2rem
+				padding-left: 5%
+		.notice
+		.music
+			width: 100%
+			background-color: #4b4f56
+		.dropDown
+			width: 100%
+			&:hover
+				background: opacify(grey, 0.5)
+			a
+				display: flex
+				flex-direction: row
+				justify-content: flex-end
+				width: 100%
+				align-items: center
+				text-decoration: none
+				p
+					font-weight: bold
+					color: #fff
+					text-decoration: none
+				img
+					width: 30px
+					height: 30px
+					border-radius: 20px
+					margin-left: 4%
+				.menuDown
+					width: 20px
+					height: 20px
+			.dropDownWrap
+				position: absolute
+				display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+   
