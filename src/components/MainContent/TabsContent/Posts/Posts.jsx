@@ -7,9 +7,9 @@ const Posts = () => {
     return(
         <div className={PostsSass.posts}>
             <div className={PostsSass.tabs}>
-                <div>Все записи</div>
-                <div>Мои записи</div>
-                <div>Архив записей</div>
+                <div className={PostsSass.itemTabs}><p>Все записи</p></div>
+                <div className={PostsSass.itemTabs}><p>Мои записи</p></div>
+                <div className={PostsSass.itemTabs}><p>Архив записей</p></div>
                 {/*<div className={PostsSass.search}>*/}
                 {/*    <img src="" alt=""/>*/}
                 {/*</div>*/}

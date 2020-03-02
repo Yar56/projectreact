@@ -1,6 +1,61 @@
+@mixin gridItemsFriends
+	display: grid
+	grid-template-columns: 1fr 1fr 1fr
+	justify-items: center
+	align-items: center
+	grid-template-rows: minmax(85px, 100%) minmax(85px,100%)
+	margin-top: 6%
+@mixin img
+	height: 50px
+	width: 50px
+	border-radius: 100%
+
 .friends
 	grid-area: friends
 	background-color: #333336!important
 	border-color: #333336!important
 	border-radius: 7px
 	min-height: 420px
+	.titleCount
+		display: flex
+		justify-content: space-around
+		padding-top: 8px
+		.friendsOfline
+			width: 30%
+		a
+			color: #ffffff
+			text-decoration: none
+			width: 30%
+			span
+				color: grey
+				margin-left: 2%
+				width: 100%
+		.update
+			&:hover
+				text-decoration: underline
+	.friendsCount
+		@include gridItemsFriends
+		.item
+			width: 50%
+			text-align: center
+			img
+				@include img
+			.name
+				text-align: center
+	.titleOnline
+		display: flex
+		margin-left: 10%
+		a
+			color: #ffffff
+			text-decoration: none
+			span
+				color: grey
+	.friendsOnline
+		@include gridItemsFriends
+		.item
+			width: 50%
+			text-align: center
+			img
+				@include img
+			.name
+				text-align: center

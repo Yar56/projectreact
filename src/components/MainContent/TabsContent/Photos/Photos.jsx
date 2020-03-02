@@ -7,7 +7,7 @@ const Photos = () => {
         <div className={PhotosSass.photos}>
             <div className={PhotosSass.title}>
                 <a href="" className={PhotosSass.wrapCount}>
-                    <span className={PhotosSass.photos}>Мои фотографии</span>
+                    <span className={PhotosSass.myPhotos}>Мои фотографии</span>
                     <span className={PhotosSass.count}>1</span>
                 </a>
                 <a className={PhotosSass.onMap} href="">Показать на карте</a>

@@ -3,6 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Navigation/NavigationStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Navigation/NavigationStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/Audio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/Audio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/AudioStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/AudioStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfoStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhoto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhotoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhotoStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/Video.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/Video.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/VideoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/VideoStyle.module.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +139,10 @@
       <workItem from="1582989524783" duration="835000" />
       <workItem from="1582990645949" duration="1037000" />
       <workItem from="1582992816066" duration="343000" />
+      <workItem from="1582993357128" duration="5883000" />
+      <workItem from="1583062273434" duration="6723000" />
+      <workItem from="1583143449527" duration="659000" />
+      <workItem from="1583150148986" duration="12146000" />
     </task>
     <servers />
   </component>
@@ -194,5 +216,9 @@
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="54" y="26" width="1666" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.0.1850.1080@70.0.1850.1080" timestamp="1582990894304" />
+    <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1583070845057">
+      <screen x="69" y="0" width="1851" height="1080" />
+    </state>
+    <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup/69.0.1851.1080@69.0.1851.1080" timestamp="1583070845057" />
   </component>
 </project>
