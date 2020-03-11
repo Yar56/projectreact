@@ -3,24 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContentStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContentStyle.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/Navigation/NavigationStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Navigation/NavigationStyle.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/Audio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/Audio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/AudioStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/AudioStyle.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfoStyle.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhoto.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhotoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhotoStyle.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/Video.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/Video.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/VideoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/VideoStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/Audio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Audio/Audio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/AudioList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Audio/AudioList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Audio/AudioStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Audio/AudioStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/CreatePost/CreatePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/CreatePost/CreatePost.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/Friends.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Friends/FriendsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/FriendsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Photos/Photos.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Photos/Photos.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Photos/Photos.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Post/PostStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Post/PostStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Posts/Posts.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfileInfo/ProfileInfoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhoto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/ProfilePhoto/ProfilePhotoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhotoStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/TabsContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/TabsContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/TabsContentStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/TabsContentStyle.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/Video.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Video/Video.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/TabsContent/Video/VideoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Video/VideoStyle.module.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SASS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -68,15 +79,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WebStormProject\projectreact\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStormProject\projectreact\src\components\MainContent\twocolumn" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Posts" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Post" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Photos" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Intro" />
-      <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Friends" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStormProject\projectreact\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -142,7 +153,15 @@
       <workItem from="1582993357128" duration="5883000" />
       <workItem from="1583062273434" duration="6723000" />
       <workItem from="1583143449527" duration="659000" />
-      <workItem from="1583150148986" duration="12146000" />
+      <workItem from="1583150148986" duration="14337000" />
+      <workItem from="1583225352987" duration="17218000" />
+      <workItem from="1583339644566" duration="3042000" />
+      <workItem from="1583389207870" duration="233000" />
+      <workItem from="1583410276566" duration="1875000" />
+      <workItem from="1583578116817" duration="21159000" />
+      <workItem from="1583671692167" duration="8273000" />
+      <workItem from="1583748176460" duration="9419000" />
+      <workItem from="1583928908192" duration="745000" />
     </task>
     <servers />
   </component>
@@ -171,9 +190,10 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="489" y="116" key="#Sass/74.0.1846.1080@74.0.1846.1080" timestamp="1582201798399" />
-    <state x="688" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581940944961">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state x="685" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583591349777">
+      <screen x="69" y="0" width="1851" height="1080" />
     </state>
+    <state x="685" y="315" key="#com.intellij.fileTypes.FileTypeChooser/69.0.1851.1080@69.0.1851.1080" timestamp="1583591349777" />
     <state x="688" y="315" key="#com.intellij.fileTypes.FileTypeChooser/74.0.1846.1080@74.0.1846.1080" timestamp="1581940944961" />
     <state x="707" y="308" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1581935120184">
       <screen x="74" y="0" width="1846" height="1080" />
@@ -216,9 +236,9 @@
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="54" y="26" width="1666" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.0.1850.1080@70.0.1850.1080" timestamp="1582990894304" />
-    <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1583070845057">
+    <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1583226260323">
       <screen x="69" y="0" width="1851" height="1080" />
     </state>
-    <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup/69.0.1851.1080@69.0.1851.1080" timestamp="1583070845057" />
+    <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup/69.0.1851.1080@69.0.1851.1080" timestamp="1583226260323" />
   </component>
 </project>

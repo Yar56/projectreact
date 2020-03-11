@@ -2,5 +2,15 @@
 	display: grid
 	grid-template-columns: 1.3fr 7fr
 	width: 65%
+	//grid-template-rows: 100%
+	//height: 52rem
 	margin: 70px auto
 	grid-column-gap: 20px
+	grid-template-areas: "nav pages"
+	.pages
+		grid-row-start: 1
+		grid-row-end: 1
+		grid-column-start: 2
+		grid-column-end: 2
+		grid-area: pages
+

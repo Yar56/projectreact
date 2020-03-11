@@ -1,0 +1,56 @@
+.friendsHeader
+	display: grid
+	grid-template-rows: 1fr 100%
+	grid-row-gap: 20px
+	.friendsRequest
+		background-color: #333336
+		border-radius: 10px
+		.title
+			background-color: #444446!important
+			height: 5rem
+		.requests
+			height: 8rem
+			display: flex
+			.icon
+				width: 20%
+				img
+					height: 80px
+					width: 80px
+					border-radius: 100%
+			.friend
+				display: flex
+				flex-direction: column
+				justify-content: space-evenly
+				width: 80%
+				a
+					color: #ffffff
+					text-decoration: none
+					font-size: 18px
+					font-weight: 500
+					&:hover
+						text-decoration: underline
+				p
+					margin: 0
+					font-size: 15px
+					font-weight: 300
+					text-transform: uppercase
+					color: #777777
+				.buttons
+					.btn
+						min-width: 30px
+						border: none
+						outline: none
+						background-color: #666666
+						color: #fff
+						padding: 7px 16px 8px 16px
+						font-size: 14px
+						cursor: pointer
+						border-radius: 7px
+						&:hover
+							background-color: #6d6d6d!important
+						&:last-child
+							margin-left: 10px
+	.friendsList
+		height: 100vh
+		background-color: #333336
+		border-radius: 10px

@@ -1,0 +1,111 @@
+.messagesHeader
+	background-color: #444446
+	height: 50px
+	input
+		border: none
+		height: 96%
+		background-color: #444446
+		outline: none
+		width: 84%
+		padding-left: 8%
+		font-size: 20px
+		color: #fff
+	svg
+		margin: 9px 0 0 13px
+		position: absolute
+		&:hover
+			cursor: pointer
+			fill-opacity: 0.6
+			transition: 0.7s
+.main
+	background-color: #333336!important
+	display: grid
+	margin: 0
+	padding: 0
+	.wrapMessage
+		width: 100%
+		background-color: #333336
+		list-style-type: none
+		display: grid
+		grid-template-columns: 2fr 90%
+		height: 5.5em
+		text-decoration: none
+		color: #fff
+		&:hover
+			background-color: #5d5d5d
+			cursor: pointer
+		.ava
+			justify-self: center
+			align-self: center
+			img
+				width: 55px
+				height: 55px
+				border-radius: 100%
+		.contentMessage
+			align-self: center
+			display: grid
+			grid-template-rows: 53%
+			.wrapInfo
+				display: grid
+				grid-template-columns: 4fr 1fr
+				.name
+					font-size: 16px
+				.time
+					justify-self: center
+			.text
+				display: grid
+				grid-template-columns: 2fr 97%
+				padding-right: 10%
+				img
+					height: 35px
+					width: 35px
+					border-radius: 100%
+				span
+					background-color: #444446
+					border-radius: 10px
+					line-height: 30px
+					padding-left: 4%
+					margin-left: 2%
+.messagesFooter
+	background-color: #444446
+	height: 50px
+	display: grid
+	grid-template-columns: 6fr 0.5fr 0.5fr
+	align-items: center
+	a
+		color: #ffffff
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+	.soundoff
+		margin-left: 5%
+	.spamm
+		align-self: center
+	svg
+		align-self: center
+		justify-self: center
+		&:hover
+			cursor: pointer
+			opacity: 0.6
+			transition: 0.7s
+.tabs
+	border-radius: 7px
+	background-color: #333336
+	position: fixed
+	left: 67%
+	width: 15%
+	padding: 10px 0 10px 0
+	.link
+		display: flex
+		flex-direction: column
+		justify-content: space-evenly
+		.itemLink
+			text-decoration: none
+			color: #ffffff
+			height: 12%
+			line-height: 33px
+			padding-left: 5%
+			&:hover
+				background-color: #444446
+		.active
+			background-color: #444446
