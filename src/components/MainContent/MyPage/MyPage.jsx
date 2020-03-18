@@ -8,23 +8,23 @@ import Friends from './Friends/Friends';
 import Video from "./Video/Video";
 import Audio from "./Audio/Audio";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import TabsContentStyle from './TabsContentStyle.module.sass';
+import MyPageStyle from './MyPageStyle.module.sass';
 
 
-const TabsContent = () => {
+const MyPage = (props) => {
     return (
-        <div className={TabsContentStyle.wrapperTabs}>
-            <div className={TabsContentStyle.firstColumn}>
+        <div className={MyPageStyle.wrapperTabs}>
+            <div className={MyPageStyle.firstColumn}>
                 <ProfilePhoto />
-                <Friends />
+                <Friends state={props.state}/>
                 <Video/>
                 <Audio/>
             </div>
-            <div className={TabsContentStyle.secondColumn}>
-                <ProfileInfo/>
+            <div className={MyPageStyle.secondColumn}>
+                <ProfileInfo state={props.state}/>
                 <Photos />
                 <CreatePost />
-                <Posts />
+                <Posts state={props.state}/>
             </div>
 
 
@@ -33,4 +33,4 @@ const TabsContent = () => {
     )
 };
 
-export default TabsContent;
+export default MyPage;

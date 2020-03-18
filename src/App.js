@@ -8,11 +8,11 @@ import MainContent from './components/MainContent/MainContent';
 
 
 
-const App = () => {
+const App = (props) => {
   return (
     <div className='app-wrapper'>
         <Header />
-        <MainContent />
+        <MainContent state={props.state}/>
     </div>
 
   );
