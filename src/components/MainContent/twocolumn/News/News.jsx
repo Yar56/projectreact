@@ -2,29 +2,47 @@ import React from "react";
 import './NewsStyle.sass';
 import './../twoColumnStyle.sass';
 import './../Messages/MessagesStyle.sass';
+import Post from "../../MyPage/Posts/Post/Post";
+import Create from "../../MyPage/CreatePost/CreatePostComponent";
+import CreatePostSass from './../../MyPage/CreatePost/CreatePost.module.sass';
+import Slider from "./Slider";
+import PostStyle from './../../MyPage/Posts/Post/PostStyle.module.sass';
+
+const News = (props) => {
 
 
-const News = () => {
+     let sliderItem = props.state.sliderStory
+        .map( item => <Slider imgStory={item.imgStory} iconProfile={item.iconProfile} nameProfile={item.nameProfile}/>
+            );
+
+     let newsPost = props.state.dataNews
+         .map(post => <Post id={post.id} name={post.name} time={post.time} avatar={post.avatar} img={post.img} text={post.text}
+            likes={post.likesCount}
+         />);
+
     return(
         <>
             <div className="newsHeader">
                 <div className="search">
-                    <input type="text" placeholder="Что у вас нового"/>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet consectetur illo
-                        officiis quis ratione repellendus rerum sed soluta. Commodi dolorem eaque maxime nam natus
-                        necessitatibus ratione vitae voluptas!
+                    <div className={CreatePostSass.createPost}>
+                        <Create/>
                     </div>
-
                 </div>
                 <div className="historySlider">
-                    ffgf
+                    <div>Истории</div>
+                    <div className="stories">
+                        {sliderItem}
+
+                    </div>
+                    <div className="turn">
+                        <img className="left" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/dropdown-menu-1614249-1368951.png" alt=""/>
+                        <img className="right" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/dropdown-menu-1614249-1368951.png" alt=""/>
+                    </div>
                 </div>
                 <div className="post">
-                    dfggfg
+                    {newsPost}
                 </div>
-                <div className="friendsSlider">
-                    fgg
-                </div>
+
             </div>
 
             <div className="tabsNews">

@@ -2,7 +2,12 @@ import React from "react";
 
 let state = {
     messagesData: [
-        {id: 1, name:"Anastas valkin", time:"18:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>},
+        {
+            id: 1,
+            name:"Anastas valkin",
+            time:"18:11",
+            avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>
+        },
         {id: 2, name:"Anna block", time:"18:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png"/>},
         {id: 3, name:"Seo selkovich", time:"22:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png"/>},
         {id: 4, name:"Lorem valk23", time:"14:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png"/>},
@@ -75,6 +80,51 @@ let state = {
             photosCount: 22,
             videosCount: 100,
             audioCount:22
+        },
+    ],
+    sliderStory: [
+        {
+            imgStory: <img src="https://clck.ru/MZQw6" alt=""/>,
+            iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png" alt=""/>,
+            nameProfile: "Anna Karen"
+        },
+        {
+            imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
+            iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
+            nameProfile: "Kara radir"
+        },
+        {
+            imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
+            iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png" alt=""/>,
+            nameProfile: "Ivan Rurikov"
+        },
+        {
+            imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
+            iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png" alt=""/>,
+            nameProfile: "Titan Anisov"
+        },
+    ],
+    dataNews: [
+        {
+            id: 1, name:"Vladimir Lem", time: "07:01",
+            avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
+            img: <img src="https://clck.ru/MZQw6" alt=""/>,
+            text: "ice cream",
+            likesCount: 120
+        },
+        {
+            id: 1, name:"Vladimir Lem", time: "07:01",
+            avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
+            img: <img src="https://clck.ru/MZQw6" alt=""/>,
+            text: "ice cream",
+            likesCount: 120
+        },
+        {
+            id: 1, name:"Vladimir Lem", time: "07:01",
+            avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
+            img: <img src="https://clck.ru/MZQw6" alt=""/>,
+            text: "ice cream",
+            likesCount: 120
         },
     ]
 };
