@@ -126,7 +126,24 @@ let state = {
             text: "ice cream",
             likesCount: 120
         },
-    ]
+    ],
+    friendsPage: [
+        {
+            name: "dsdfdfdf",
+            descr: "fdfgd",
+            img: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
+        }
+    ],
+    friendsRequest: [
+        {
+            name: "ffff",
+            descr: "fff",
+            img: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
+            request: 232,
+        }
+    ],
+    countFriends: {allFriends: 232, onlineFriends: 222,},
+
 };
 
 export default state;

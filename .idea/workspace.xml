@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Post/PostStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Post/PostStyle.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhoto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/Friend.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/Friend.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPageStyle.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPageStyle.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/NewsStyle.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/NewsStyle.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -150,6 +145,10 @@
       <workItem from="1584439262253" duration="3139000" />
       <workItem from="1584544458982" duration="7356000" />
       <workItem from="1584607554820" duration="17211000" />
+      <workItem from="1585041777416" duration="16066000" />
+      <workItem from="1585064125390" duration="343000" />
+      <workItem from="1585064536083" duration="266000" />
+      <workItem from="1585064853238" duration="1870000" />
     </task>
     <servers />
   </component>
@@ -174,6 +173,14 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="489" y="116" key="#ESLint/74.0.1846.1080@74.0.1846.1080" timestamp="1582282863960" />
+    <state x="483" y="72" key="#JavaScript" timestamp="1585047074661">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="483" y="72" key="#JavaScript/62.0.1858.1080@62.0.1858.1080" timestamp="1585047074661" />
+    <state x="483" y="115" key="#Notifications" timestamp="1585064865438">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="483" y="115" key="#Notifications/62.0.1858.1080@62.0.1858.1080" timestamp="1585064865438" />
     <state x="489" y="116" key="#Sass" timestamp="1582201798399">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
@@ -200,37 +207,43 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="499" y="265" width="956" height="815" key="EditFileWatcherDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1581935235517" />
-    <state width="1826" height="257" key="GridCell.Tab.0.bottom" timestamp="1584446569452">
-      <screen x="69" y="0" width="1851" height="1080" />
+    <state width="1837" height="274" key="GridCell.Tab.0.bottom" timestamp="1585042320776">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state width="1837" height="274" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1585042320776" />
     <state width="1826" height="257" key="GridCell.Tab.0.bottom/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1826" height="257" key="GridCell.Tab.0.center" timestamp="1584446569452">
-      <screen x="69" y="0" width="1851" height="1080" />
+    <state width="1837" height="274" key="GridCell.Tab.0.center" timestamp="1585042320776">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state width="1837" height="274" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1585042320776" />
     <state width="1826" height="257" key="GridCell.Tab.0.center/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1826" height="257" key="GridCell.Tab.0.left" timestamp="1584446569452">
-      <screen x="69" y="0" width="1851" height="1080" />
+    <state width="1837" height="274" key="GridCell.Tab.0.left" timestamp="1585042320776">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state width="1837" height="274" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1585042320776" />
     <state width="1826" height="257" key="GridCell.Tab.0.left/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1826" height="257" key="GridCell.Tab.0.right" timestamp="1584446569452">
-      <screen x="69" y="0" width="1851" height="1080" />
+    <state width="1837" height="274" key="GridCell.Tab.0.right" timestamp="1585042320776">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state width="1837" height="274" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1585042320776" />
     <state width="1826" height="257" key="GridCell.Tab.0.right/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state x="327" y="139" width="1301" height="883" key="SettingsEditor" timestamp="1582106804693">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state x="269" y="148" width="1301" height="883" key="SettingsEditor" timestamp="1585065046614">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state x="269" y="148" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1585065046614" />
     <state x="327" y="139" width="1301" height="883" key="SettingsEditor/74.0.1846.1080@74.0.1846.1080" timestamp="1582106804693" />
     <state x="54" y="26" width="1666" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582990894304">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="54" y="26" width="1666" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.0.1850.1080@70.0.1850.1080" timestamp="1582990894304" />
-    <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1583226260323">
-      <screen x="69" y="0" width="1851" height="1080" />
+    <state x="568" y="45" width="844" height="1034" key="search.everywhere.popup" timestamp="1585046862722">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state x="568" y="45" width="844" height="1034" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1585046862722" />
     <state x="573" y="45" width="840" height="1034" key="search.everywhere.popup/69.0.1851.1080@69.0.1851.1080" timestamp="1583226260323" />
   </component>
 </project>
