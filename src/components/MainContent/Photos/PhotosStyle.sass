@@ -1,0 +1,54 @@
+@import "src/components/MainContent/twocolumn/FriendsPage/FriendsPageStyle"
+@mixin title
+	display: flex
+	justify-content: space-between
+	padding: 5px 5% 5px 5%
+	background-color: #444446
+	border-top-left-radius: 10px
+	border-top-right-radius: 10px
+	height: 40px
+@mixin item
+	display: grid
+	grid-template-columns: 1fr 1fr 1fr
+	grid-template-rows: 1fr 1fr
+	grid-column-gap: 10px
+	grid-row-gap: 10px
+	min-height: 350px
+@mixin img
+	width: 100px
+	height: 111px
+	display: block
+	margin: 0 auto
+
+
+.photosWrapper
+	width: 100%
+	height: 50%
+	display: grid
+	grid-template-rows: 1fr 1fr
+	grid-row-gap: 20px
+	.myAlbums
+		background-color: #333336
+		border-radius: 10px
+		.title
+			@include title
+			.descr
+				padding-top: 8px
+			.buttons
+				.btn
+					@include btn
+		.albumsItem
+			@include item
+			img
+				@include img
+	.myPhotos
+		background-color: #333336
+		border-radius: 10px
+		.title
+			@include title
+			.descr
+				padding-top: 8px
+		.photosItem
+			@include item
+			img
+				@include img

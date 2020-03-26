@@ -7,6 +7,7 @@ import MyPage from './MyPage/MyPage';
 import Messages from './twocolumn/Messages/Messages';
 import News from './twocolumn/News/News';
 import FriendsPage from './twocolumn/FriendsPage/FriendsPage';
+import Photos from "./Photos/Photos";
 import {BrowserRouter, Route} from 'react-router-dom';
 
 const MainContent = (props) => {
@@ -22,6 +23,7 @@ const MainContent = (props) => {
                         <Route path='/friends' render={() => <FriendsPage state={props.state}/>}/>
                         <Route path='/social'/>
                     </div>
+                    <Route path='/photos' render={() => <Photos state={props.state}/> }/>
                 </div>
             </main>
         </BrowserRouter>

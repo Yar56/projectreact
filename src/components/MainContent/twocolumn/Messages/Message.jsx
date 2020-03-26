@@ -3,7 +3,6 @@ import './MessagesStyle.sass';
 import {Link, NavLink} from "react-router-dom";
 
 const ContentMessage = (props) => {
-
     return (
         <div className="text">
             {props.avatar}
@@ -39,9 +38,7 @@ const Message = (props) => {
 
             </div>
 
-            <div className="dialogContent">
 
-            </div>
         </NavLink>
     )
 };

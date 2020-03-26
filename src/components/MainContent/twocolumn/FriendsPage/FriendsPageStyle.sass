@@ -1,11 +1,26 @@
+@mixin btn
+	min-width: 30px
+	border: none
+	outline: none
+	background-color: #666666
+	color: #fff
+	padding: 7px 16px 8px 16px
+	font-size: 14px
+	cursor: pointer
+	border-radius: 7px
+	&:hover
+		background-color: #6d6d6d!important
+	&:last-child
+		margin-left: 10px
+
+
 .friendsHeader
 	display: grid
 
 	grid-row-gap: 20px
 	.friendsRequest
 		background-color: #333336
-		border-bottom-left-radius: 10px
-		border-bottom-right-radius: 10px
+		border-radius: 10px
 		.title
 			padding: 13px 0 0 13px
 			height: 2.5rem
@@ -44,19 +59,7 @@
 					color: #777777
 				.buttons
 					.btn
-						min-width: 30px
-						border: none
-						outline: none
-						background-color: #666666
-						color: #fff
-						padding: 7px 16px 8px 16px
-						font-size: 14px
-						cursor: pointer
-						border-radius: 7px
-						&:hover
-							background-color: #6d6d6d!important
-						&:last-child
-							margin-left: 10px
+						@include btn
 	.friendsList
 		min-height: 100px
 		max-height: 100%
