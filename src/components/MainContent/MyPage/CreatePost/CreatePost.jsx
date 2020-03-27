@@ -2,10 +2,10 @@ import React from "react";
 import CreatePostSass from './CreatePost.module.sass';
 import Create from "./CreatePostComponent";
 
-const CreatePost = () => {
+const CreatePost = (props) => {
     return(
             <div className={CreatePostSass.createPost}>
-                <Create/>
+                <Create addPost={props.addPost}/>
             </div>
 
 

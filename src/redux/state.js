@@ -164,4 +164,21 @@ let state = {
 
 };
 
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 4,
+        name:"nadya velitr", time: "16:24",
+        avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
+        img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
+        text: postMessage,
+        likesCount: 12
+    };
+
+    state.dataPost.push(newPost);
+};
+
+
+
+
 export default state;
+

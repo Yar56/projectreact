@@ -12,7 +12,7 @@ const App = (props) => {
   return (
     <div className='app-wrapper'>
         <Header />
-        <MainContent state={props.state}/>
+        <MainContent state={props.state} addPost={props.addPost}/>
     </div>
 
   );

@@ -16,7 +16,7 @@ const MainContent = (props) => {
             <main className={MainContentStyle.mainContent}>
                 <Navigation/>
                 <div className={MainContentStyle.pages}>
-                    <Route path='/tabs' render={() => <MyPage state={props.state}/>}/>
+                    <Route path='/tabs' render={() => <MyPage state={props.state} addPost={props.addPost}/>}/>
                     <div className="twoColumn">
                         <Route path='/news' render={() => <News state={props.state}/>}/>
                         <Route path='/dialogs' render={() => <Messages state={props.state}/>}/>

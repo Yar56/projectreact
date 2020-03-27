@@ -48,7 +48,6 @@ const Navigation = () => {
                     <a href="">Друзья</a>
                     <a href="" className={CoverNavStyle.update}>237</a>
                 </NavLink>
-
                 <NavLink to='' className={CoverNavStyle.item}>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                          width="30" height="30"
