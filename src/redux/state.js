@@ -1,6 +1,8 @@
 import React from "react";
 import {rerenderEntireTree} from "../render";
 
+
+
 let state = {
     messagesData: [
         {
@@ -40,6 +42,7 @@ let state = {
         likesCount: 120
     },
 ],
+    newPostText: "hahaha",
     friends: [
         {   id:1,
             img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
@@ -164,20 +167,26 @@ let state = {
     ],
 
 };
-
-export let addPost = (postMessage) => {
+window.state = state;
+export let addPost = () => {
     let newPost = {
         id: 4,
-        name:"nadya velitr", time: "16:24",
+        name:"nadya abakan", time: "16:24",
         avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
         img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
-        text: postMessage,
-        likesCount: 12,
+        text: state.newPostText,
+        likesCount: 0,
     };
     state.dataPost.push(newPost);
+    state.newPostText = '';
     rerenderEntireTree(state);
 };
 
+
+export let updateTextPost = (newText) => {
+    state.newPostText = newText;
+    rerenderEntireTree(state);
+};
 
 
 

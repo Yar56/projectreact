@@ -23,7 +23,7 @@ const MyPage = (props) => {
             <div className={MyPageStyle.secondColumn}>
                 <ProfileInfo state={props.state}/>
                 <Photos />
-                <CreatePost addPost={props.addPost}/>
+                <CreatePost state={props.state} addPost={props.addPost} updateTextPost={props.updateTextPost}/>
                 <Posts state={props.state}/>
             </div>
 

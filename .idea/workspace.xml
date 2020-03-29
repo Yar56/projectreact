@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +154,7 @@
       <workItem from="1585133823451" duration="10217000" />
       <workItem from="1585238918961" duration="3839000" />
       <workItem from="1585315141408" duration="4943000" />
-      <workItem from="1585467427474" duration="4721000" />
+      <workItem from="1585467427474" duration="10472000" />
     </task>
     <servers />
   </component>

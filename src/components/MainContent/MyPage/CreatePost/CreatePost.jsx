@@ -5,7 +5,7 @@ import Create from "./CreatePostComponent";
 const CreatePost = (props) => {
     return(
             <div className={CreatePostSass.createPost}>
-                <Create addPost={props.addPost}/>
+                <Create state={props.state} addPost={props.addPost} updateTextPost={props.updateTextPost}/>
             </div>
 
 
