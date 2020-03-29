@@ -1,4 +1,5 @@
 import React from "react";
+import {rerenderEntireTree} from "../render";
 
 let state = {
     messagesData: [
@@ -171,10 +172,10 @@ export let addPost = (postMessage) => {
         avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
         img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
         text: postMessage,
-        likesCount: 12
+        likesCount: 12,
     };
-
     state.dataPost.push(newPost);
+    rerenderEntireTree(state);
 };
 
 

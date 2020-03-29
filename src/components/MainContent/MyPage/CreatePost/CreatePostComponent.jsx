@@ -9,6 +9,7 @@ const Create = (props) => {
     let createPost = () => {
       let text = createPostElement.current.value;
       props.addPost(text);
+      createPostElement.current.value = "";
     };
 
     return (<div className={CreatePostSass.create}>
