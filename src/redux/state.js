@@ -1,7 +1,9 @@
 import React from "react";
-import {rerenderEntireTree} from "../render";
 
 
+let rerenderEntireTree = () => {
+    console.log("state changed");
+};
 
 let state = {
     messagesData: [
@@ -167,8 +169,11 @@ let state = {
     ],
 
 };
+
 window.state = state;
-export let addPost = () => {
+
+
+export const addPost = () => {
     let newPost = {
         id: 4,
         name:"nadya abakan", time: "16:24",
@@ -183,12 +188,14 @@ export let addPost = () => {
 };
 
 
-export let updateTextPost = (newText) => {
+export const updateTextPost = (newText) => {
     state.newPostText = newText;
     rerenderEntireTree(state);
 };
 
-
+export const subscribe = (observer) => {
+    rerenderEntireTree = observer;
+};
 
 export default state;
 

@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,8 @@
       <workItem from="1585133823451" duration="10217000" />
       <workItem from="1585238918961" duration="3839000" />
       <workItem from="1585315141408" duration="4943000" />
-      <workItem from="1585467427474" duration="10472000" />
+      <workItem from="1585467427474" duration="10902000" />
+      <workItem from="1585668037835" duration="1278000" />
     </task>
     <servers />
   </component>
@@ -202,9 +199,10 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="707" y="308" key="#com.intellij.ide.macro.MacrosDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1581935120184" />
-    <state x="661" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582990332223">
-      <screen x="70" y="0" width="1850" height="1080" />
+    <state x="656" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585668390621">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state x="656" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1585668390621" />
     <state x="661" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.0.1850.1080@70.0.1850.1080" timestamp="1582990332223" />
     <state x="664" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1582735667116" />
     <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1581927571715">
