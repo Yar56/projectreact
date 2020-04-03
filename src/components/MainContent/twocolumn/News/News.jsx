@@ -25,7 +25,7 @@ const News = (props) => {
             <div className="newsHeader">
                 <div className="search">
                     <div className={CreatePostSass.createPost}>
-                        <Create/>
+
                     </div>
                 </div>
                 <div className="historySlider">
