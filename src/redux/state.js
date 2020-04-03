@@ -172,27 +172,28 @@ let store = {
     _callSubscriber () {
         console.log("state changed");
     },
-    addPost () {
-        let newPost = {
-            id: 4,
-            name:"nadya abakan", time: "16:24",
-            avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
-            img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
-            text: this._state.newPostText,
-            likesCount: 0,
-        };
-        this._state.dataPost.push(newPost);
-        this._state.newPostText = '';
-        this._callSubscriber(this._state);
-    },
-    updateTextPost (newText) {
-        this._state.newPostText = newText;
-        this._callSubscriber(this._state);
-    },
     subscribe (observer) {
         this._callSubscriber = observer;
     },
 
+    dispatch (action) {
+        if (action.type === 'ADD-POST') {
+            let newPost = {
+                id: 4,
+                name:"nadya abakan", time: "16:24",
+                avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
+                img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
+                text: this._state.newPostText,
+                likesCount: 0,
+            };
+            this._state.dataPost.push(newPost);
+            this._state.newPostText = '';
+            this._callSubscriber(this._state);
+        } else if (action.type === 'UPDATE-TEXT-POST') {
+            this._state.newPostText = action.newText;
+            this._callSubscriber(this._state);
+        }
+    },
 };
 
 
