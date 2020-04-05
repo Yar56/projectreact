@@ -1,4 +1,6 @@
 import React from "react";
+const ADD_POST = 'ADD-POST';
+const UPDATE_NEW_POST_TEXT = 'UPDATE-TEXT-POST';
 
 
 let store = {
@@ -196,6 +198,9 @@ let store = {
     },
 };
 
+export const addPostActionCreate = () => ({type: ADD_POST});
+
+export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
 
 
 
