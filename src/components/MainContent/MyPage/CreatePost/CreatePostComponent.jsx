@@ -1,6 +1,6 @@
 import CreatePostSass from "./CreatePost.module.sass";
 import React from "react";
-import {addPostActionCreate, updateNewPostTextActionCreator} from "../../../../redux/state";
+import {addPostActionCreate, updateNewPostTextActionCreator} from "../../../../redux/postReducer";
 
 
 const Create = (props) => {
@@ -12,8 +12,8 @@ const Create = (props) => {
     };
 
     let onPostChange = () => {
-        let text = createPostElement.current.value;
-        let action = updateNewPostTextActionCreator(text);
+        let newText = createPostElement.current.value;
+        let action = updateNewPostTextActionCreator(newText);
         props.dispatch(action);
     };
 

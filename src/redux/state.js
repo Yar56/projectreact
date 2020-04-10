@@ -1,4 +1,6 @@
 import React from "react";
+import postReducer from "./postReducer";
+import messageReducer from "./messagesReducer";
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-TEXT-POST';
 const UPDATE_NEW_MESSAGE_BODY = 'UPDATE-NEW-MESSAGE-BODY';
@@ -50,7 +52,7 @@ let store = {
                     likesCount: 120
                 },
             ],
-            newPostText: "hahaha",
+            newPostText: "",
             friends: [
                 {   id:1,
                     img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
@@ -186,41 +188,17 @@ let store = {
         this._callSubscriber = observer;
     },
 
+    // дабавил reducer  присвоил его стейту
     dispatch (action) {
-        if (action.type === ADD_POST) {
-            let newPost = {
-                id: 4,
-                name:"nadya abakan", time: "16:24",
-                avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
-                img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
-                text: this._state.newPostText,
-                likesCount: 0,
-            };
-            this._state.dataPost.push(newPost);
-            this._state.newPostText = '';
-            this._callSubscriber(this._state);
-        } else if (action.type === UPDATE_NEW_POST_TEXT) {
-            this._state.newPostText = action.newText;
-            this._callSubscriber(this._state);
-        } else if (action.type === UPDATE_NEW_MESSAGE_BODY) {
-        	this._state.dialogsPage.newMessageBody = action.body;
-        	this._callSubscriber(this._state);
-		} else if (action.type === SEND_MESSAGE) {
-            let body = this._state.dialogsPage.newMessageBody;
-            this._state.dialogsPage.messages.push({id:6, message: body});
-            this._state.dialogsPage.newMessageBody = '';
-            this._callSubscriber(this._state);
-		}
+        this._state.profilePage = postReducer(this._state.profilePage, action)
+        this._state.dialogsPage = messageReducer(this._state.dialogsPage, action)
+
+        this._callSubscriber(this._state);
     },
 };
 
-export const addPostActionCreate = () => ({type: ADD_POST});
 
-export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
 
-export const sendMessageCreator = () => ({type: SEND_MESSAGE});
-
-export const updateNewMessageBodyCreator = (body) => ({type: UPDATE_NEW_MESSAGE_BODY, body: body});
 
 export default store;
 window.store = store;

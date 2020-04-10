@@ -5,7 +5,7 @@ import Post from "./Post/Post";
 
 const Posts = (props) => {
 
-    let post = props.state.dataPost
+    let post = props.state.profilePage.dataPost
         .map(post => <Post avatar={post.avatar} name={post.name} time={post.time} img={post.img} text={post.text} likes={post.likesCount}/>
         );
 

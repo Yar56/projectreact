@@ -3,7 +3,7 @@ import './MessagesStyle.sass';
 import './../twoColumnStyle.sass';
 import Message from "./Message";
 import ContentMessage from "./ContentMessage";
-import {sendMessageCreator, updateNewMessageBodyCreator} from "../../../../redux/state";
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../../../../redux/messagesReducer";
 
 
 const Messages = (props) => {

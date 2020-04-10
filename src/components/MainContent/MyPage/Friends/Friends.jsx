@@ -4,10 +4,10 @@ import FriendsList from "./FriendsList";
 
 const Friends = (props) => {
 
-    let friendsItem = props.state.friends
+    let friendsItem = props.state.profilePage.friends
         .map(friends => <FriendsList id={friends.id} img={friends.img} name={friends.name}/> );
 
-    let count = props.state.friendsCount
+    let count = props.state.profilePage.friendsCount
         .map(count => <span>{count.count}</span>);
 
     return(

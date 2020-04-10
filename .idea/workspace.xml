@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/MessagesStyle.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/MessagesStyle.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="projectreact" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,7 +145,7 @@
       <workItem from="1586192565871" duration="3897000" />
       <workItem from="1586257236448" duration="4255000" />
       <workItem from="1586349084490" duration="12280000" />
-      <workItem from="1586527735834" duration="4010000" />
+      <workItem from="1586527735834" duration="8461000" />
     </task>
     <servers />
   </component>
@@ -189,9 +183,10 @@
     </state>
     <state x="480" y="116" key="#Sass/62.0.1858.1080@62.0.1858.1080" timestamp="1585147787824" />
     <state x="489" y="116" key="#Sass/74.0.1846.1080@74.0.1846.1080" timestamp="1582201798399" />
-    <state x="685" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583591349777">
-      <screen x="69" y="0" width="1851" height="1080" />
+    <state x="680" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586536403184">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
+    <state x="680" y="315" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1586536403184" />
     <state x="685" y="315" key="#com.intellij.fileTypes.FileTypeChooser/69.0.1851.1080@69.0.1851.1080" timestamp="1583591349777" />
     <state x="688" y="315" key="#com.intellij.fileTypes.FileTypeChooser/74.0.1846.1080@74.0.1846.1080" timestamp="1581940944961" />
     <state x="707" y="308" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1581935120184">

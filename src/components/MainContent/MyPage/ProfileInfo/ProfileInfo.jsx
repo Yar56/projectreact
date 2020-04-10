@@ -5,7 +5,7 @@ import ProfileInfoContent from "./ProfileInfoContent";
 
 const ProfileInfo = (props) => {
 
-    let content = props.state.profileInfo
+    let content = props.state.profilePage.profileInfo
         .map(info => <ProfileInfoContent city={info.city} site={info.site} friendsCount={info.friendsCount}
                                          followersCount={info.followersCount} photosCount={info.photosCount}
                                          videosCount={info.videosCount} audioCount={info.audioCount}/>);
