@@ -1,92 +1,100 @@
 import React from "react";
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-TEXT-POST';
-
+const UPDATE_NEW_MESSAGE_BODY = 'UPDATE-NEW-MESSAGE-BODY';
+const SEND_MESSAGE = 'SEND-MESSAGE';
 
 let store = {
     _state: {
-        messagesData: [
-            {
-                id: 1,
-                name:"Anastas valkin",
-                time:"18:11",
-                avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>
-            },
-            {id: 2, name:"Anna block", time:"18:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png"/>},
-            {id: 3, name:"Seo selkovich", time:"22:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png"/>},
-            {id: 4, name:"Lorem valk23", time:"14:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png"/>},
-            {id: 5, name:"Braha brafovich", time:"08:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>},
-            {id: 6, name:"Anastff valunn", time:"28:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png"/>},
-            {id: 7, name:"Anasggtas vain", time:"20:11", avatar:  <img src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png"/>},
-            {id: 8, name:"lirastas jjlkin", time:"18:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png"/>},
-            {id: 9, name:"Anareas gjgghn", time:"20:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png"/> },
-            {id: 10, name:"An va", time:"18:11", avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>},
+        dialogsPage: {
+            dialogsItem: [
+                {id: 1, name:"Anastas valkin", avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>},
+                {id: 2, name:"Anna block", avatar: <img src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png"/>},
+                {id: 3, name:"Seo selkovich",  avatar: <img src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png"/>},
+                {id: 4, name:"Lorem valk23",  avatar: <img src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png"/>},
+                {id: 5, name:"Braha brafovich",  avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>},
+                {id: 6, name:"Anastff valunn",  avatar: <img src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png"/>},
+                {id: 7, name:"Anasggtas vain",  avatar:  <img src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png"/>},
+                {id: 8, name:"lirastas jjlkin",  avatar: <img src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png"/>},
+                {id: 9, name:"Anareas gjgghn",  avatar: <img src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png"/> },
+                {id: 10, name:"An va", avatar: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>},
 
-        ],
-        dataPost: [
-            {id: 1, name:"nadya velitr", time: "16:24",
-                avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
-                img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
-                text: "hiiii",
-                likesCount: 12
-            },
-            {id: 2, name:"vladimir vev", time: "11:05",
-                avatar: <img src="https://img.icons8.com/emoji/40/000000/man-student.png" alt=""/>,
-                img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
-                text: "daaaaaa",
-                likesCount: 1
-            },
-            {id: 3, name:"jek shepard", time: "08:30",
-                avatar: <img src="https://img.icons8.com/emoji/40/000000/man-technologyst.png" alt=""/>,
-                img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
-                text: "noooooooo gad noooo",
-                likesCount: 120
-            },
-        ],
-        newPostText: "hahaha",
-        friends: [
-            {   id:1,
-                img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
-                name: "Andy",
-            },
-            {
-                id:2,
-                img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
-                name: "Sam",
-            },
-            {
-                id:3,
-                img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
-                name: "Саша",
-            },
-            {
-                id:4,
-                img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
-                name: "Анастасия",
-            },
-            {
-                id:5,
-                img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
-                name: "Роман",
-            },
-            {
-                id: 6,
-                img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
-                name: "Фара"
-            },
-        ],
-        friendsCount: [{count: "212"}],
-        profileInfo: [
-            {
-                city: "Orenburg",
-                site: "www",
-                friendsCount: 100,
-                followersCount: 55,
-                photosCount: 22,
-                videosCount: 100,
-                audioCount:22
-            },
-        ],
+            ],
+            messages: [
+                {id: 1, message: 'Hi'},
+                {id: 2, message: 'How is your it-kamasutra?'},
+                {id: 3, message: 'Yo'},
+                {id: 4, message: 'Yo'},
+                {id: 5, message: 'Yo'},
+            ],
+            newMessageBody: "",
+        },
+        profilePage: {
+            dataPost: [
+                {id: 1, name:"nadya velitr", time: "16:24",
+                    avatar: <img src="https://img.icons8.com/emoji/40/000000/man-pilot.png" alt=""/>,
+                    img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
+                    text: "hiiii",
+                    likesCount: 12
+                },
+                {id: 2, name:"vladimir vev", time: "11:05",
+                    avatar: <img src="https://img.icons8.com/emoji/40/000000/man-student.png" alt=""/>,
+                    img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
+                    text: "daaaaaa",
+                    likesCount: 1
+                },
+                {id: 3, name:"jek shepard", time: "08:30",
+                    avatar: <img src="https://img.icons8.com/emoji/40/000000/man-technologyst.png" alt=""/>,
+                    img:<img src="https://img.icons8.com/emoji/80/000000/man-student.png" alt=""/>,
+                    text: "noooooooo gad noooo",
+                    likesCount: 120
+                },
+            ],
+            newPostText: "hahaha",
+            friends: [
+                {   id:1,
+                    img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
+                    name: "Andy",
+                },
+                {
+                    id:2,
+                    img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
+                    name: "Sam",
+                },
+                {
+                    id:3,
+                    img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
+                    name: "Саша",
+                },
+                {
+                    id:4,
+                    img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
+                    name: "Анастасия",
+                },
+                {
+                    id:5,
+                    img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
+                    name: "Роман",
+                },
+                {
+                    id: 6,
+                    img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
+                    name: "Фара"
+                },
+            ],
+            friendsCount: [{count: "212"}],
+            profileInfo: [
+                {
+                    city: "Orenburg",
+                    site: "www",
+                    friendsCount: 100,
+                    followersCount: 55,
+                    photosCount: 22,
+                    videosCount: 100,
+                    audioCount:22
+                },
+            ],
+        },
         sliderStory: [
             {
                 imgStory: <img src="https://clck.ru/MZQw6" alt=""/>,
@@ -179,7 +187,7 @@ let store = {
     },
 
     dispatch (action) {
-        if (action.type === 'ADD-POST') {
+        if (action.type === ADD_POST) {
             let newPost = {
                 id: 4,
                 name:"nadya abakan", time: "16:24",
@@ -191,10 +199,18 @@ let store = {
             this._state.dataPost.push(newPost);
             this._state.newPostText = '';
             this._callSubscriber(this._state);
-        } else if (action.type === 'UPDATE-TEXT-POST') {
+        } else if (action.type === UPDATE_NEW_POST_TEXT) {
             this._state.newPostText = action.newText;
             this._callSubscriber(this._state);
-        }
+        } else if (action.type === UPDATE_NEW_MESSAGE_BODY) {
+        	this._state.dialogsPage.newMessageBody = action.body;
+        	this._callSubscriber(this._state);
+		} else if (action.type === SEND_MESSAGE) {
+            let body = this._state.dialogsPage.newMessageBody;
+            this._state.dialogsPage.messages.push({id:6, message: body});
+            this._state.dialogsPage.newMessageBody = '';
+            this._callSubscriber(this._state);
+		}
     },
 };
 
@@ -202,7 +218,9 @@ export const addPostActionCreate = () => ({type: ADD_POST});
 
 export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
 
+export const sendMessageCreator = () => ({type: SEND_MESSAGE});
 
+export const updateNewMessageBodyCreator = (body) => ({type: UPDATE_NEW_MESSAGE_BODY, body: body});
 
 export default store;
 window.store = store;

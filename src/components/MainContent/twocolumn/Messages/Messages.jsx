@@ -2,44 +2,57 @@ import React from "react";
 import './MessagesStyle.sass';
 import './../twoColumnStyle.sass';
 import Message from "./Message";
+import ContentMessage from "./ContentMessage";
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../../../../redux/state";
 
 
 const Messages = (props) => {
+    let state = props.store.getState().dialogsPage;
 
-
-    let messagesElements = props.state.messagesData
-        .map( dialog => <Message name={dialog.name} time={dialog.time} id={dialog.id} avatar={dialog.avatar}/>
+    let dialogsElements = state.dialogsItem
+        .map( dialog => <Message name={dialog.name}  id={dialog.id}
+                                 avatar={dialog.avatar}/>
         );
 
+    let messagesElements = state.messages
+        .map ( m => <ContentMessage message={m.message}/>
+        );
+
+    let newMessageBody = state.newMessageBody;
+
+
+    let onSendMessageClick = () => {
+        props.store.dispatch(sendMessageCreator());
+    };
+    // e это объект события с помощью него мы можем достучаться до объекта с которым произошло событие
+    // target - выбириает html элемент в котором происходит изменение = input
+
+
+    let onNewMessageChange = (e) => {
+        let body = e.target.value;
+        props.store.dispatch(updateNewMessageBodyCreator(body))
+
+    };
 
     return(
        <>
            <div>
-               <div className="messagesHeader">
-                   <input type="text" placeholder="Поиск"/>
-                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="30" height="30"
-                        viewBox="0 0 50 50"
-                        style={{fill:"#fff"}}>
-                       <path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 24.984375 16.986328 A 1.0001 1.0001 0 0 0 24 18 L 24 24 L 18 24 A 1.0001 1.0001 0 1 0 18 26 L 24 26 L 24 32 A 1.0001 1.0001 0 1 0 26 32 L 26 26 L 32 26 A 1.0001 1.0001 0 1 0 32 24 L 26 24 L 26 18 A 1.0001 1.0001 0 0 0 24.984375 16.986328 z"></path>
-                   </svg>
-               </div>
                <div className="main">
-                   {messagesElements}
-
-                   <div className="messagesFooter">
-                       <a className="soundoff" href="#">
-                           Отключить звуковые уведомления
-                       </a>
-
-                       <a className="spamm" href="#">Спам</a>
-                       <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                            width="24" height="24"
-                            viewBox="0 0 24 24"
-                            style={{fill:"#fff"}}>
-                           <path d="M 10.490234 2 C 10.011234 2 9.6017656 2.3385938 9.5097656 2.8085938 L 9.1757812 4.5234375 C 8.3550224 4.8338012 7.5961042 5.2674041 6.9296875 5.8144531 L 5.2851562 5.2480469 C 4.8321563 5.0920469 4.33375 5.2793594 4.09375 5.6933594 L 2.5859375 8.3066406 C 2.3469375 8.7216406 2.4339219 9.2485 2.7949219 9.5625 L 4.1132812 10.708984 C 4.0447181 11.130337 4 11.559284 4 12 C 4 12.440716 4.0447181 12.869663 4.1132812 13.291016 L 2.7949219 14.4375 C 2.4339219 14.7515 2.3469375 15.278359 2.5859375 15.693359 L 4.09375 18.306641 C 4.33275 18.721641 4.8321562 18.908906 5.2851562 18.753906 L 6.9296875 18.1875 C 7.5958842 18.734206 8.3553934 19.166339 9.1757812 19.476562 L 9.5097656 21.191406 C 9.6017656 21.661406 10.011234 22 10.490234 22 L 13.509766 22 C 13.988766 22 14.398234 21.661406 14.490234 21.191406 L 14.824219 19.476562 C 15.644978 19.166199 16.403896 18.732596 17.070312 18.185547 L 18.714844 18.751953 C 19.167844 18.907953 19.66625 18.721641 19.90625 18.306641 L 21.414062 15.691406 C 21.653063 15.276406 21.566078 14.7515 21.205078 14.4375 L 19.886719 13.291016 C 19.955282 12.869663 20 12.440716 20 12 C 20 11.559284 19.955282 11.130337 19.886719 10.708984 L 21.205078 9.5625 C 21.566078 9.2485 21.653063 8.7216406 21.414062 8.3066406 L 19.90625 5.6933594 C 19.66725 5.2783594 19.167844 5.0910937 18.714844 5.2460938 L 17.070312 5.8125 C 16.404116 5.2657937 15.644607 4.8336609 14.824219 4.5234375 L 14.490234 2.8085938 C 14.398234 2.3385937 13.988766 2 13.509766 2 L 10.490234 2 z M 12 8 C 14.209 8 16 9.791 16 12 C 16 14.209 14.209 16 12 16 C 9.791 16 8 14.209 8 12 C 8 9.791 9.791 8 12 8 z"></path>
-                       </svg>
+                   <div className="messagesItems">
+                       {dialogsElements}
                    </div>
+
+                   <div className="message">
+                       {messagesElements}
+                       <div className="contentWrapper">
+                           <input type="text" value={newMessageBody}
+                                      onChange={onNewMessageChange}
+                                      placeholder="Введите свое сообщение"
+                           />
+                           <button onClick={onSendMessageClick}>Отправить</button>
+                       </div>
+                   </div>
+
                </div>
 
            </div>

@@ -7,9 +7,6 @@ const Create = (props) => {
 
     let createPostElement = React.createRef();
 
-
-
-
     let createPost = () => {
         props.dispatch(addPostActionCreate());
     };

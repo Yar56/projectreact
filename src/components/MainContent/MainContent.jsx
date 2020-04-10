@@ -20,7 +20,7 @@ const MainContent = (props) => {
                                                               dispatch={props.dispatch}/>}/>
                     <div className="twoColumn">
                         <Route path='/news' render={() => <News state={props.state}/>}/>
-                        <Route path='/dialogs' render={() => <Messages state={props.state}/>}/>
+                        <Route path='/dialogs' render={() => <Messages  store={props.store}/>}/>
                         <Route path='/friends' render={() => <FriendsPage state={props.state}/>}/>
                         <Route path='/social'/>
                     </div>

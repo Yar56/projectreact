@@ -1,33 +1,16 @@
-.messagesHeader
-	background-color: #444446
-	height: 50px
-	input
-		border: none
-		height: 96%
-		background-color: #444446
-		outline: none
-		width: 84%
-		padding-left: 8%
-		font-size: 20px
-		color: #fff
-	svg
-		margin: 9px 0 0 13px
-		position: absolute
-		&:hover
-			cursor: pointer
-			fill-opacity: 0.6
-			transition: 0.7s
+
 .main
 	background-color: #333336!important
 	display: grid
 	margin: 0
 	padding: 0
+	grid-template-columns: 30% 70%
 	.wrapMessage
-		width: 100%
+
 		background-color: #333336
 		list-style-type: none
 		display: grid
-		grid-template-columns: 2fr 90%
+		grid-template-columns: 1fr 1fr
 		height: 5.5em
 		text-decoration: none
 		color: #fff
@@ -41,13 +24,10 @@
 				width: 55px
 				height: 55px
 				border-radius: 100%
-		.contentMessage
-			align-self: center
-			display: grid
-			grid-template-rows: 53%
+		.infoMessage
+
 			.wrapInfo
-				display: grid
-				grid-template-columns: 4fr 1fr
+
 				.name
 					font-size: 16px
 				.time
@@ -66,28 +46,11 @@
 					padding-left: 4%
 					margin-left: 2%
 					background-color: #444446
-.messagesFooter
-	background-color: #444446
-	height: 50px
-	display: grid
-	grid-template-columns: 6fr 0.5fr 0.5fr
-	align-items: center
-	a
-		color: #ffffff
-		text-decoration: none
-		&:hover
-			text-decoration: underline
-	.soundoff
-		margin-left: 5%
-	.spamm
-		align-self: center
-	svg
-		align-self: center
-		justify-self: center
-		&:hover
-			cursor: pointer
-			opacity: 0.6
-			transition: 0.7s
+	.contentWrapper
+		height: 200px
+		background-color: #5d5d5d
+		form
+			margin-top: 70px
 .tabs
 	border-radius: 7px
 	background-color: #333336
