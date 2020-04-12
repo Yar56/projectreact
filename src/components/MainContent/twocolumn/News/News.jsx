@@ -11,11 +11,11 @@ import PostStyle from './../../MyPage/Posts/Post/PostStyle.module.sass';
 const News = (props) => {
 
 
-     let sliderItem = props.state.sliderStory
+     let sliderItem = props.state.newsPage.sliderStory
         .map( item => <Slider imgStory={item.imgStory} iconProfile={item.iconProfile} nameProfile={item.nameProfile}/>
             );
 
-     let newsPost = props.state.dataNews
+     let newsPost = props.state.newsPage.dataNews
          .map(post => <Post id={post.id} name={post.name} time={post.time} avatar={post.avatar} img={post.img} text={post.text}
             likes={post.likesCount}
          />);

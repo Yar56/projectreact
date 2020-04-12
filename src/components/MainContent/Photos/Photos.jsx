@@ -6,9 +6,9 @@ import MyPhotos from "./MyPhotos";
 
 const Photos = (props) => {
 
-	let albumsItem = props.state.dataAlbums
+	let albumsItem = props.state.photosPage.dataAlbums
 		.map(item => <MyAlbums img1={item.img1} img2={item.img2} img3={item.img3} img4={item.img4} count={item.count}/>);
-	let photosItem = props.state.dataPhotos
+	let photosItem = props.state.photosPage.dataPhotos
 		.map(item => <MyPhotos img1={item.img1} img2={item.img2} img3={item.img3} img4={item.img4} count={item.count}/>);
 
 	return(

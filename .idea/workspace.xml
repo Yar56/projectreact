@@ -3,12 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Photos/Photos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Photos/Photos.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/ContentMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/ContentMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/messagesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/messagesReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/postReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +150,9 @@
       <workItem from="1586192565871" duration="3897000" />
       <workItem from="1586257236448" duration="4255000" />
       <workItem from="1586349084490" duration="12280000" />
-      <workItem from="1586527735834" duration="8461000" />
+      <workItem from="1586527735834" duration="8528000" />
+      <workItem from="1586695797095" duration="3649000" />
+      <workItem from="1586703647249" duration="4029000" />
     </task>
     <servers />
   </component>
@@ -183,10 +190,10 @@
     </state>
     <state x="480" y="116" key="#Sass/62.0.1858.1080@62.0.1858.1080" timestamp="1585147787824" />
     <state x="489" y="116" key="#Sass/74.0.1846.1080@74.0.1846.1080" timestamp="1582201798399" />
-    <state x="680" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586536403184">
+    <state x="680" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586708048689">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="680" y="315" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1586536403184" />
+    <state x="680" y="315" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1586708048689" />
     <state x="685" y="315" key="#com.intellij.fileTypes.FileTypeChooser/69.0.1851.1080@69.0.1851.1080" timestamp="1583591349777" />
     <state x="688" y="315" key="#com.intellij.fileTypes.FileTypeChooser/74.0.1846.1080@74.0.1846.1080" timestamp="1581940944961" />
     <state x="707" y="308" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1581935120184">

@@ -1,10 +1,7 @@
 import React from "react";
 import postReducer from "./postReducer";
 import messageReducer from "./messagesReducer";
-const ADD_POST = 'ADD-POST';
-const UPDATE_NEW_POST_TEXT = 'UPDATE-TEXT-POST';
-const UPDATE_NEW_MESSAGE_BODY = 'UPDATE-NEW-MESSAGE-BODY';
-const SEND_MESSAGE = 'SEND-MESSAGE';
+
 
 let store = {
     _state: {
@@ -52,7 +49,7 @@ let store = {
                     likesCount: 120
                 },
             ],
-            newPostText: "",
+            newPostText: '',
             friends: [
                 {   id:1,
                     img: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHfYAjdcTNdx9m173T7ct3TKO14kW-f4pYEGKILgTSpx3jc-Cy" alt=""/>,
@@ -97,85 +94,91 @@ let store = {
                 },
             ],
         },
-        sliderStory: [
-            {
-                imgStory: <img src="https://clck.ru/MZQw6" alt=""/>,
-                iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png" alt=""/>,
-                nameProfile: "Anna Karen"
-            },
-            {
-                imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
-                iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
-                nameProfile: "Kara radir"
-            },
-            {
-                imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
-                iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png" alt=""/>,
-                nameProfile: "Ivan Rurikov"
-            },
-            {
-                imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
-                iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png" alt=""/>,
-                nameProfile: "Titan Anisov"
-            },
-        ],
-        dataNews: [
-            {
-                id: 1, name:"Vladimir Lem", time: "07:01",
-                avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
-                img: <img src="https://clck.ru/MZQw6" alt=""/>,
-                text: "ice cream",
-                likesCount: 120
-            },
-            {
-                id: 1, name:"Vladimir Lem", time: "07:01",
-                avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
-                img: <img src="https://clck.ru/MZQw6" alt=""/>,
-                text: "ice cream",
-                likesCount: 120
-            },
-            {
-                id: 1, name:"Vladimir Lem", time: "07:01",
-                avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
-                img: <img src="https://clck.ru/MZQw6" alt=""/>,
-                text: "ice cream",
-                likesCount: 120
-            },
-        ],
-        friendsPage: [
-            {
-                name: "dsdfdfdf",
-                descr: "fdfgd",
-                img: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
-            }
-        ],
-        friendsRequest: [
-            {
-                name: "ffff",
-                descr: "fff",
-                img: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
-                request: 232,
-            }
-        ],
-        countFriends: {allFriends: 232, onlineFriends: 222,},
-        dataAlbums: [
-            {
-                count: 4,
-                img1: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-                img2: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-                img3: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-                img4: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-            }
-        ],
-        dataPhotos: [
-            {
-                count: 4,
-                img1: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-                img2: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-                img3: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-                img4: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
-            }
-        ],
+		newsPage: {
+        	sliderStory: [
+				{
+					imgStory: <img src="https://clck.ru/MZQw6" alt=""/>,
+					iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/girl-dark-skin-tone.png" alt=""/>,
+					nameProfile: "Anna Karen"
+				},
+				{
+					imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
+					iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
+					nameProfile: "Kara radir"
+				},
+				{
+					imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
+					iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/child-medium-skin-tone.png" alt=""/>,
+					nameProfile: "Ivan Rurikov"
+				},
+				{
+					imgStory: <img  src="https://clck.ru/MZQw6" alt=""/>,
+					iconProfile: <img  src="https://img.icons8.com/emoji/48/000000/man-gesturing-ok.png" alt=""/>,
+					nameProfile: "Titan Anisov"
+				},
+			],
+			dataNews: [
+				{
+					id: 1, name:"Vladimir Lem", time: "07:01",
+					avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
+					img: <img src="https://clck.ru/MZQw6" alt=""/>,
+					text: "ice cream",
+					likesCount: 120
+				},
+				{
+					id: 1, name:"Vladimir Lem", time: "07:01",
+					avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
+					img: <img src="https://clck.ru/MZQw6" alt=""/>,
+					text: "ice cream",
+					likesCount: 120
+				},
+				{
+					id: 1, name:"Vladimir Lem", time: "07:01",
+					avatar: <img src="https://img.icons8.com/emoji/40/000000/girl-dark-skin-tone.png" alt=""/>,
+					img: <img src="https://clck.ru/MZQw6" alt=""/>,
+					text: "ice cream",
+					likesCount: 120
+				},
+			],
+			},
+        friendsPage: {
+        	friends: [
+				{
+					name: "dsdfdfdf",
+					descr: "fdfgd",
+					img: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
+				}
+			],
+			friendsRequest: [
+				{
+					name: "ffff",
+					descr: "fff",
+					img: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png" alt=""/>,
+					request: 232,
+				}
+			],
+			countFriends: {allFriends: 232, onlineFriends: 222,}
+			},
+       	photosPage: {
+			dataAlbums: [
+				{
+					count: 4,
+					img1: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+					img2: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+					img3: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+					img4: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+				}
+			],
+			dataPhotos: [
+				{
+					count: 4,
+					img1: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+					img2: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+					img3: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+					img4: <img src="https://img.icons8.com/emoji/48/000000/boy-medium-light-skin-tone.png"/>,
+				}
+			],
+		}
 
     },
     getState () {

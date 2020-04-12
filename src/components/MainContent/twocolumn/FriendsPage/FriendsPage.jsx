@@ -7,10 +7,10 @@ import FriendsRequest from "./FriendsRequesr";
 
 const FriendsPage = (props) => {
 
-	let friendItem = props.state.friendsPage
+	let friendItem = props.state.friendsPage.friends
 		.map(friend => <Friend name={friend.name} descr={friend.descr} img={friend.img}/>);
 
-	let requestItem = props.state.friendsRequest
+	let requestItem = props.state.friendsPage.friendsRequest
 		.map(request => <FriendsRequest name={request.name} descr={request.descr} img={request.img} request={request.request}/>)
 
 	return (
@@ -21,11 +21,11 @@ const FriendsPage = (props) => {
 						<div className='wrapper'>
 							<div className="tabsAll active">
 								Все друзья
-								<span>{props.state.countFriends.allFriends}</span>
+								<span>{props.state.friendsPage.countFriends.allFriends}</span>
 							</div>
 							<div className="tabsOnline">
 								Друзья онлайн
-								<span>{props.state.countFriends.onlineFriends}</span>
+								<span>{props.state.friendsPage.countFriends.onlineFriends}</span>
 							</div>
 						</div>
 						<div className="search">

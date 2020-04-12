@@ -1,6 +1,6 @@
 import React from "react";
 import './MessagesStyle.sass';
-import {sendMessageCreator, updateNewMessageBodyCreator} from "../../../../redux/state";
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../../../../redux/store";
 
 let ContentMessage = (props) => {
 	return (
