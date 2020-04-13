@@ -4,11 +4,11 @@ import './../MainContent/twocolumn/twoColumnStyle.sass';
 
 import Navigation from './Navigation/Navigation';
 import MyPage from './MyPage/MyPage';
-import Messages from './twocolumn/Messages/Messages';
 import News from './twocolumn/News/News';
 import FriendsPage from './twocolumn/FriendsPage/FriendsPage';
 import Photos from "./Photos/Photos";
 import {BrowserRouter, Route} from 'react-router-dom';
+import MessagesContainer from "./twocolumn/Messages/MessagesContainer";
 
 const MainContent = (props) => {
     return (
@@ -17,10 +17,12 @@ const MainContent = (props) => {
                 <Navigation/>
                 <div className={MainContentStyle.pages}>
                     <Route path='/tabs' render={() => <MyPage state={props.state}
-                                                              dispatch={props.dispatch}/>}/>
+                                                              dispatch={props.dispatch}
+                                                              store={props.store}
+                    />}/>
                     <div className="twoColumn">
                         <Route path='/news' render={() => <News state={props.state}/>}/>
-                        <Route path='/dialogs' render={() => <Messages  store={props.store}/>}/>
+                        <Route path='/dialogs' render={() => <MessagesContainer  store={props.store}/>}/>
                         <Route path='/friends' render={() => <FriendsPage state={props.state}/>}/>
                         <Route path='/social'/>
                     </div>

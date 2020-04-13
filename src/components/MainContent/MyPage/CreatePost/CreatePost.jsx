@@ -1,11 +1,12 @@
 import React from "react";
 import CreatePostSass from './CreatePost.module.sass';
-import Create from "./CreatePostComponent";
+import CreatePostComponent from "./CreatePostComponent";
+import CreatePostCompContainer from "./CreatePostCompContainer";
 
 const CreatePost = (props) => {
     return(
             <div className={CreatePostSass.createPost}>
-                <Create state={props.state} dispatch={props.dispatch}/>
+                <CreatePostCompContainer store={props.store} />
             </div>
 
 

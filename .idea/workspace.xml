@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Photos/Photos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Photos/Photos.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/FriendsPage/FriendsPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/ContentMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/ContentMessage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/messagesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/messagesReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/postReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SASS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,6 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\projectreact\src\components\MainContent\twocolumn\Messages" />
+      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\CreatePost" />
       <recent name="D:\WebStormProject\projectreact\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -152,7 +166,9 @@
       <workItem from="1586349084490" duration="12280000" />
       <workItem from="1586527735834" duration="8528000" />
       <workItem from="1586695797095" duration="3649000" />
-      <workItem from="1586703647249" duration="4029000" />
+      <workItem from="1586703647249" duration="5443000" />
+      <workItem from="1586788329306" duration="4052000" />
+      <workItem from="1586793397291" duration="4376000" />
     </task>
     <servers />
   </component>
