@@ -5,31 +5,29 @@ import Message from "./Message";
 import ContentMessage from "./ContentMessage";
 
 
-
-
 const Messages = (props) => {
 
-    let state = props.dialogsPage;
 
-    let dialogsElements = state.dialogsItem
+    let dialogsElements = props.dialogsPage.dialogsItem
         .map( dialog => <Message name={dialog.name}  id={dialog.id}
                                  avatar={dialog.avatar}/>
         );
-    let messagesElements = state.messages
+    let messagesElements = props.dialogsPage.messages
         .map ( m => <ContentMessage message={m.message}/>
         );
-    let newMessageBody = state.newMessageBody;
+
+    let newMessageBody = props.newMessageBody;
 
 
     let onSendMessageClick = () => {
-        props.sendMessage();
+        props.SendMessage();
     };
     // e это объект события с помощью него мы можем достучаться до объекта с которым произошло событие
     // target - выбириает html элемент в котором происходит изменение = input
 
     let onNewMessageChange = (e) => {
         let body = e.target.value;
-        props.updateNewMessageBody(body);
+        props.NewMessageBody(body);
 
     };
 

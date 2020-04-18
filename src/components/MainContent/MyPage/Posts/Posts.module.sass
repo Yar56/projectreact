@@ -3,21 +3,39 @@
 	width: 100%
 	height: 100vh
 	grid-area: posts
-	.tabs
-		background-color: #333336!important
-		border-color: #333336!important
+	.create
 		display: flex
-		padding-left: 10px
-		height: 40px
 		align-items: center
-
-		.itemTabs
-			margin-left: 10px
-			padding-bottom: 5px
-			&:hover
-				border-bottom: 2px solid  white
+		justify-content: space-between
+		position: relative
+		.photo
+			img
+				height: 40px
+				width: 40px
+				border-radius: 100%
+		.text
+			width: 100%
+			padding-left: 2%
+			input
+				outline: none
+				width: 100%
+				border: none
+				min-height: 100%
+				height: 4.5rem
+				background-color: #444446!important
+				font-weight: 400
+				font-size: 20px
+				color: #fff
+			button
+				position: absolute
+				right: 2%
+				top: 16px
+				background-color: #333336!important
+				outline: none
+				border: none
+				color: white
+				font-size: 20px
+				width: 22%
+				height: 58%
 				cursor: pointer
-
-	//
-	//.search
-	//.tabsContent
+				border-radius: 10px

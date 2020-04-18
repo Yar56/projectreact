@@ -16,21 +16,19 @@ const MainContent = (props) => {
             <main className={MainContentStyle.mainContent}>
                 <Navigation/>
                 <div className={MainContentStyle.pages}>
-                    <Route path='/tabs' render={() => <MyPage state={props.state}
-                                                              dispatch={props.dispatch}
-                                                              store={props.store}
-                    />}/>
+                    <Route path='/tabs' render={() => <MyPage/>}  />
                     <div className="twoColumn">
-                        <Route path='/news' render={() => <News state={props.state}/>}/>
+                        {/*<Route path='/news' render={() => <News state={props.state}/>}/>*/}
                         <Route path='/dialogs' render={() => <MessagesContainer  store={props.store}/>}/>
-                        <Route path='/friends' render={() => <FriendsPage state={props.state}/>}/>
+                        {/*<Route path='/friends' render={() => <FriendsPage state={props.state}/>}/>*/}
                         <Route path='/social'/>
                     </div>
-                    <Route path='/photos' render={() => <Photos state={props.state}/> }/>
+                    {/*<Route path='/photos' render={() => <Photos state={props.state}/> }/>*/}
                 </div>
             </main>
         </BrowserRouter>
     )
+
 };
 
 export default MainContent;

@@ -3,10 +3,10 @@ import './NewsStyle.sass';
 import './../twoColumnStyle.sass';
 import './../Messages/MessagesStyle.sass';
 import Post from "../../MyPage/Posts/Post/Post";
-import Create from "../../MyPage/CreatePost/CreatePostComponent";
-import CreatePostSass from './../../MyPage/CreatePost/CreatePost.module.sass';
+
+
 import Slider from "./Slider";
-import PostStyle from './../../MyPage/Posts/Post/PostStyle.module.sass';
+
 
 const News = (props) => {
 
@@ -24,9 +24,7 @@ const News = (props) => {
         <>
             <div className="newsHeader">
                 <div className="search">
-                    <div className={CreatePostSass.createPost}>
 
-                    </div>
                 </div>
                 <div className="historySlider">
                     <div>Истории</div>

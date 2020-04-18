@@ -7,8 +7,8 @@ import photosReducer from "./photosReducer";
 
 
 let reducers = combineReducers({
-	dialogsPage: messageReducer,
 	profilePage: postReducer,
+	dialogsPage: messageReducer,
 	newsPage: newsReducer,
 	friendsPage: friendsReducer,
 	photosPage: photosReducer,
