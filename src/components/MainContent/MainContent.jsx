@@ -9,6 +9,7 @@ import FriendsPage from './twocolumn/FriendsPage/FriendsPage';
 import Photos from "./Photos/Photos";
 import {BrowserRouter, Route} from 'react-router-dom';
 import MessagesContainer from "./twocolumn/Messages/MessagesContainer";
+import FindUsersContainer from "./FindUsers/FindUsersContainer";
 
 const MainContent = (props) => {
     return (
@@ -19,11 +20,12 @@ const MainContent = (props) => {
                     <Route path='/tabs' render={() => <MyPage/>}  />
                     <div className="twoColumn">
                         {/*<Route path='/news' render={() => <News state={props.state}/>}/>*/}
-                        <Route path='/dialogs' render={() => <MessagesContainer  store={props.store}/>}/>
+                        <Route path='/dialogs' render={() => <MessagesContainer  />}/>
                         {/*<Route path='/friends' render={() => <FriendsPage state={props.state}/>}/>*/}
                         <Route path='/social'/>
                     </div>
                     {/*<Route path='/photos' render={() => <Photos state={props.state}/> }/>*/}
+                    <Route   path='/findUsers' render={ () => <FindUsersContainer/>} />
                 </div>
             </main>
         </BrowserRouter>

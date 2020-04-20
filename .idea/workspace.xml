@@ -31,19 +31,8 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePost.module.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostCompContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/CreatePost/CreatePostComponent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/Posts.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/MessagesContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/Messages/MessagesContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/twocolumn/News/News.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/messagesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/messagesReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/postReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Navigation/NavigationStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Navigation/NavigationStyle.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SASS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/MainContent/MyPage/PostscC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/image" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,18 +78,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\projectreact\src\assets\image" />
+      <recent name="D:\projects\projectreact\src\components\MainContent\FindUsers" />
+      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\PostscC" />
+      <recent name="D:\projects\projectreact\src\components\MainContent\twocolumn\Messages" />
+      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\CreatePost" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\Posts" />
       <recent name="D:\projects\projectreact\src\components\MainContent\twocolumn\Messages" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\twocolumn" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Posts" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Post" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\PostscC" />
-      <recent name="D:\projects\projectreact\src\components\MainContent\twocolumn\Messages" />
-      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\CreatePost" />
-      <recent name="D:\WebStormProject\projectreact\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -189,7 +179,9 @@
       <workItem from="1586703647249" duration="5443000" />
       <workItem from="1586788329306" duration="4052000" />
       <workItem from="1586793397291" duration="4376000" />
-      <workItem from="1587209270542" duration="4839000" />
+      <workItem from="1587209270542" duration="5550000" />
+      <workItem from="1587381323663" duration="293000" />
+      <workItem from="1587381669736" duration="15453000" />
     </task>
     <servers />
   </component>

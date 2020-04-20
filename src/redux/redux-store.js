@@ -4,14 +4,16 @@ import messageReducer from "./messagesReducer";
 import newsReducer from "./newsReducer";
 import friendsReducer from "./friendsReducer";
 import photosReducer from "./photosReducer";
+import findUsersReducer from "./findUsersReducer";
 
 
 let reducers = combineReducers({
 	profilePage: postReducer,
-	dialogsPage: messageReducer,
 	newsPage: newsReducer,
+	dialogsPage: messageReducer,
 	friendsPage: friendsReducer,
 	photosPage: photosReducer,
+	usersPage: findUsersReducer,
 
 });
 
