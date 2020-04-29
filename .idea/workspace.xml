@@ -19,16 +19,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/findUsersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/findUsersReducer.js" afterDir="false" />
     </list>
@@ -183,7 +181,8 @@
       <workItem from="1587623718433" duration="671000" />
       <workItem from="1587741523820" duration="9341000" />
       <workItem from="1587752098136" duration="26000" />
-      <workItem from="1588080737953" duration="6148000" />
+      <workItem from="1588080737953" duration="6987000" />
+      <workItem from="1588181140713" duration="723000" />
     </task>
     <servers />
   </component>
@@ -201,7 +200,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -265,28 +264,28 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="707" y="187" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1587580286950" />
-    <state width="1831" height="271" key="GridCell.Tab.0.bottom" timestamp="1588084174178">
+    <state width="1831" height="271" key="GridCell.Tab.0.bottom" timestamp="1588181703012">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="271" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588084174178" />
+    <state width="1831" height="271" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588181703012" />
     <state width="1826" height="257" key="GridCell.Tab.0.bottom/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="271" key="GridCell.Tab.0.center" timestamp="1588084174178">
+    <state width="1831" height="271" key="GridCell.Tab.0.center" timestamp="1588181703012">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="271" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588084174178" />
+    <state width="1831" height="271" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588181703012" />
     <state width="1826" height="257" key="GridCell.Tab.0.center/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="271" key="GridCell.Tab.0.left" timestamp="1588084174178">
+    <state width="1831" height="271" key="GridCell.Tab.0.left" timestamp="1588181703012">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="271" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588084174178" />
+    <state width="1831" height="271" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588181703012" />
     <state width="1826" height="257" key="GridCell.Tab.0.left/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="271" key="GridCell.Tab.0.right" timestamp="1588084174178">
+    <state width="1831" height="271" key="GridCell.Tab.0.right" timestamp="1588181703012">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="271" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588084174178" />
+    <state width="1831" height="271" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588181703012" />
     <state width="1826" height="257" key="GridCell.Tab.0.right/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
     <state x="269" y="148" width="1301" height="883" key="SettingsEditor" timestamp="1587580306449">

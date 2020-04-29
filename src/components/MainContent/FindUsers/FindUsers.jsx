@@ -32,7 +32,7 @@ let FindUsers = (props) => {
 						</div>
 						<div>
 							{u.followed
-								? <button onClick={ () => {props.unfollow(u.id)} }>ОТПИСАТЬСЯ</button>
+								? <button onClick={ () => {props.unFollow(u.id)} }>ОТПИСАТЬСЯ</button>
 								: <button onClick={ () => {props.follow(u.id)} }>ПОДПИСАТЬСЯ</button>}
 						</div>
 						<div>
