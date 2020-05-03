@@ -1,7 +1,8 @@
 import React from "react";
 import FindUsersStyle from './FindUsersStyle.module.sass';
 import userPng from "../../../assets/image/user.png";
-import Preloader from "../../common/preloader/Preloader";
+
+import {NavLink} from "react-router-dom";
 
 
 let FindUsers = (props) => {
@@ -18,7 +19,7 @@ let FindUsers = (props) => {
 				{
 					pages.map(p => {
 						return <span className={props.currentPage === p && FindUsersStyle.activeCheckPage}
-									 onClick={(e)=> {return props.onPageChanged(p)}}
+									 onClick={()=> {return props.onPageChanged(p)}}
 						>{p}</span>
 					})
 				}
@@ -27,9 +28,9 @@ let FindUsers = (props) => {
 				props.users.map(u => <div key={u.id}>
 					<div>
 
-						<div>
+						<NavLink to={'/profile/' + u.id }>
 							<img src={u.photos.small != null ? u.photos.small : userPng} alt=""/>
-						</div>
+						</NavLink>
 						<div>
 							{u.followed
 								? <button onClick={ () => {props.unFollow(u.id)} }>ОТПИСАТЬСЯ</button>

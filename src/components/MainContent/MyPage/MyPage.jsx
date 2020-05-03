@@ -11,17 +11,17 @@ import MyPageStyle from './MyPageStyle.module.sass';
 import PostsContainer from "./Posts/PostsContainer";
 
 
-const MyPage = () => {
+const MyPage = (props) => {
     return (
         <div className={MyPageStyle.wrapperTabs}>
             <div className={MyPageStyle.firstColumn}>
-                <ProfilePhoto />
-                {/*<Friends state={props.state}/>*/}
+                <ProfilePhoto profile={props.profile}/>
+                <Friends />
                 <Video/>
                 <Audio/>
             </div>
             <div className={MyPageStyle.secondColumn}>
-                {/*<ProfileInfo state={props.state}/>*/}
+                <ProfileInfo />
                 <Photos />
                 <PostsContainer />
             </div>

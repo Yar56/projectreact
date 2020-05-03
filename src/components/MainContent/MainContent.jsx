@@ -3,13 +3,11 @@ import MainContentStyle from './MainContentStyle.module.sass';
 import './../MainContent/twocolumn/twoColumnStyle.sass';
 
 import Navigation from './Navigation/Navigation';
-import MyPage from './MyPage/MyPage';
-import News from './twocolumn/News/News';
-import FriendsPage from './twocolumn/FriendsPage/FriendsPage';
-import Photos from "./Photos/Photos";
+
 import {BrowserRouter, Route} from 'react-router-dom';
 import MessagesContainer from "./twocolumn/Messages/MessagesContainer";
 import FindUsersContainer from "./FindUsers/FindUsersContainer";
+import MyPageContainer from "./MyPage/MyPageContainer";
 
 const MainContent = (props) => {
     return (
@@ -17,7 +15,7 @@ const MainContent = (props) => {
             <main className={MainContentStyle.mainContent}>
                 <Navigation/>
                 <div className={MainContentStyle.pages}>
-                    <Route path='/tabs' render={() => <MyPage/>}  />
+                    <Route path='/profile' render={() => <MyPageContainer/>}  />
                     <div className="twoColumn">
                         {/*<Route path='/news' render={() => <News state={props.state}/>}/>*/}
                         <Route path='/dialogs' render={() => <MessagesContainer  />}/>

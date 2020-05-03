@@ -1,5 +1,5 @@
 import React from "react";
-import postReducer from "./postReducer";
+import profileReducer from "./profileReducer";
 import messageReducer from "./messagesReducer";
 
 
@@ -193,7 +193,7 @@ let store = {
 
     // дабавил reducer  присвоил его стейту
     dispatch (action) {
-        this._state.profilePage = postReducer(this._state.profilePage, action)
+        this._state.profilePage = profileReducer(this._state.profilePage, action)
         this._state.dialogsPage = messageReducer(this._state.dialogsPage, action)
 
         this._callSubscriber(this._state);

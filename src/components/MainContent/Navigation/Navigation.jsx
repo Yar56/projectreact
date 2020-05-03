@@ -9,7 +9,7 @@ import {NavLink} from "react-router-dom";
 const Navigation = () => {
     return(
         <div className={CoverNavStyle.wrapNav}>
-                <NavLink to="/tabs" className={CoverNavStyle.item}>
+                <NavLink to="/profile" className={CoverNavStyle.item}>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                          width="25" height="25"
                          viewBox="0 0 50 50"
