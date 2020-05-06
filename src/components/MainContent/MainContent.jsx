@@ -15,10 +15,10 @@ const MainContent = (props) => {
             <main className={MainContentStyle.mainContent}>
                 <Navigation/>
                 <div className={MainContentStyle.pages}>
-                    <Route path='/profile' render={() => <MyPageContainer/>}  />
+                    <Route path='/profile/:userId?' render={() => <MyPageContainer/>}  />
                     <div className="twoColumn">
-                        {/*<Route path='/news' render={() => <News state={props.state}/>}/>*/}
-                        <Route path='/dialogs' render={() => <MessagesContainer  />}/>
+                        {/*<Route path='/news' render={() => <News />}/>*/}
+                        <Route path='/dialogs' render={() => <MessagesContainer />}/>
                         {/*<Route path='/friends' render={() => <FriendsPage state={props.state}/>}/>*/}
                         <Route path='/social'/>
                     </div>

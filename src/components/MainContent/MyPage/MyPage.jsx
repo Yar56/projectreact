@@ -21,7 +21,7 @@ const MyPage = (props) => {
                 <Audio/>
             </div>
             <div className={MyPageStyle.secondColumn}>
-                <ProfileInfo />
+                <ProfileInfo  profile={props.profile}/>
                 <Photos />
                 <PostsContainer />
             </div>

@@ -3,14 +3,16 @@ import React from "react";
 
 
 const ProfileInfoContent = (props) => {
+
     return(
+
         <>
         <div className={ProfileStyle.infoWrap}>
             <div className={ProfileStyle.infoItem}>
-                <p>Город:</p> <a href="">{props.city}</a>
+                <p>Обо мне:</p> <a href="">{!props.profile.aboutMe ? <div>Данных нет</div> : props.profile.aboutMe}</a>
             </div>
             <div className={ProfileStyle.infoItem}>
-                <p>Сайт:</p> <a href="">{props.site}</a>
+                <p>Сайт:</p> <a href="">{!props.profile.site ? <div>Сайт не найден</div> : props.profile.site}</a>
             </div>
         </div>
         <svg viewBox="100 10 800 40" width="600px" xmlns="http://www.w3.org/2000/svg">
@@ -18,24 +20,24 @@ const ProfileInfoContent = (props) => {
         </svg>
         <div className={ProfileStyle.infoCount}>
             <div className={ProfileStyle.infoCountItem}>
-                <span>{props.friendsCount}</span>
-                <p>друг</p>
+                <p>GitHub:</p>
+                <span>{props.profile.contacts.github}</span>
             </div>
             <div className={ProfileStyle.infoCountItem}>
-                <span>{props.followersCount}</span>
-                <p>подписчиков</p>
+                <p>vk:</p>
+                <span>{props.profile.contacts.vk}</span>
             </div>
             <div className={ProfileStyle.infoCountItem}>
-                <span>{props.photosCount}</span>
-                <p>фотографии</p>
+                <p>Instagram:</p>
+                <span>{props.profile.contacts.instagram}</span>
             </div>
             <div className={ProfileStyle.infoCountItem}>
-                <span>{props.videosCount}</span>
-                <p>видеозаписей</p>
+                <p>facebook:</p>
+                <span>{props.profile.contacts.facebook}</span>
             </div>
             <div className={ProfileStyle.infoCountItem}>
-                <span>{props.audioCount}</span>
-                <p>аудиозаписей</p>
+                <p>twitter:</p>
+                <span>{props.profile.contacts.twitter}</span>
             </div>
         </div>
         </>

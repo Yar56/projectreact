@@ -2,7 +2,7 @@
 	grid-area: profinfo
 	background-color: #333336!important
 	border-color: #333336!important
-	min-height: 250px
+	min-height: 300px
 	max-height: 100%
 	border-radius: 7px
 	padding: 15px
@@ -47,19 +47,20 @@
 				&:hover
 					text-decoration: underline
 	.infoCount
-		display: flex
-		justify-content: space-around
+		display: grid
+		grid-template-rows: 1fr 1fr
+		grid-template-columns: 1fr 1fr 1fr
 		.infoCountItem
 			text-align: center
-			cursor: pointer
+
 			span
 				color: #BBB
 				font-size: 24px
 				padding-bottom: 3px
 				line-height: 21px
-			p
-				color: #939393
 				&:hover
 					cursor: pointer
 					color: #ffffff
 					opacity: 0.8
+			p
+				color: #939393

@@ -25,20 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="добавляю переход с страницы пользователей на MyPage">
-      <change afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPageContainer.jsx" afterDir="false" />
+    <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="добавляю переход со страницы пользователей на MyPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Friends/Friends.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/PostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/Posts/PostsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPageContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoStyle.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhoto.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Navigation/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +189,10 @@
       <workItem from="1587752098136" duration="26000" />
       <workItem from="1588080737953" duration="6987000" />
       <workItem from="1588181140713" duration="1102000" />
-      <workItem from="1588519865335" duration="5820000" />
+      <workItem from="1588519865335" duration="6034000" />
+      <workItem from="1588611579678" duration="2414000" />
+      <workItem from="1588755517294" duration="204000" />
+      <workItem from="1588755936523" duration="3930000" />
     </task>
     <servers />
   </component>
@@ -242,6 +241,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="483" y="115" key="#Notifications/62.0.1858.1080@62.0.1858.1080" timestamp="1585064865438" />
+    <state x="483" y="93" key="#Plugins" timestamp="1588755949941">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="483" y="93" key="#Plugins/62.0.1858.1080@62.0.1858.1080" timestamp="1588755949941" />
     <state x="480" y="116" key="#Sass" timestamp="1585147787824">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -257,16 +260,20 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="707" y="308" key="#com.intellij.ide.macro.MacrosDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1581935120184" />
+    <state x="668" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588755685770">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="668" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1588755685770" />
     <state x="656" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587578802956">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="656" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1587578802956" />
     <state x="661" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.0.1850.1080@70.0.1850.1080" timestamp="1582990332223" />
     <state x="664" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1582735667116" />
-    <state x="503" y="0" key="CommitChangelistDialog2" timestamp="1588528743217">
+    <state x="503" y="0" key="CommitChangelistDialog2" timestamp="1588528857809">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="503" y="0" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1588528743217" />
+    <state x="503" y="0" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1588528857809" />
     <state x="512" y="0" key="CommitChangelistDialog2/74.0.1846.1080@74.0.1846.1080" timestamp="1581927571715" />
     <state x="154" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1586529380856">
       <screen x="62" y="0" width="1858" height="1080" />
@@ -280,28 +287,28 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="707" y="187" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1587580286950" />
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1588523962623">
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1588756310394">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588523962623" />
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
     <state width="1826" height="257" key="GridCell.Tab.0.bottom/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1588523962622">
+    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1588756310394">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588523962622" />
+    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
     <state width="1826" height="257" key="GridCell.Tab.0.center/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1588523962621">
+    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1588756310394">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588523962621" />
+    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
     <state width="1826" height="257" key="GridCell.Tab.0.left/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1588523962623">
+    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1588756310394">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588523962623" />
+    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
     <state width="1826" height="257" key="GridCell.Tab.0.right/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
     <state x="269" y="148" width="1301" height="883" key="SettingsEditor" timestamp="1587580306449">

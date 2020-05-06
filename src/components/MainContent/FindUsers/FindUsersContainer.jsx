@@ -21,7 +21,7 @@ class FindUsersAPI extends React.Component{
 			.then(response => {
 				this.props.toggleIsFetching(false);
 				this.props.setUsers(response.data.items);
-				this.props.setUsersTotalCount(response.data.totalCount/100);
+				this.props.setUsersTotalCount(response.data.totalCount/50);
 			});
 	}
 	onPageChanged = (pageNumber) => {
