@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.sass';
 
-import Header from './components/Header/Header';
+
 import MainContent from './components/MainContent/MainContent';
+import HeaderContainer from "./components/Header/HeaderContainer";
 
 
 
@@ -11,7 +12,7 @@ import MainContent from './components/MainContent/MainContent';
 const App = (props) => {
   return (
     <div className='app-wrapper'>
-        <Header />
+        <HeaderContainer />
         <MainContent state={props.state} dispatch={props.dispatch} store={props.store}/>
     </div>
 

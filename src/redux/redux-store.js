@@ -5,6 +5,7 @@ import newsReducer from "./newsReducer";
 import friendsReducer from "./friendsReducer";
 import photosReducer from "./photosReducer";
 import findUsersReducer from "./findUsersReducer";
+import authReducer from "./authReducer";
 
 
 let reducers = combineReducers({
@@ -14,6 +15,7 @@ let reducers = combineReducers({
 	friendsPage: friendsReducer,
 	photosPage: photosReducer,
 	usersPage: findUsersReducer,
+	auth: authReducer,
 
 });
 

@@ -1,8 +1,9 @@
 import React from "react";
 
 import HeaderClass from './Header.module.sass';
+import {NavLink} from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
     return (
     <header className={HeaderClass.header}>
         <div className={HeaderClass.content}>
@@ -29,6 +30,7 @@ const Header = () => {
 
             </div>
             <div className={HeaderClass.music}>
+                {props.isAuth ?  props.login : <NavLink to={'/login'}>Login</NavLink>}
 
             </div>
             <div className={HeaderClass.dropDown}>

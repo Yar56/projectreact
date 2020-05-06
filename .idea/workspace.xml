@@ -27,14 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="добавляю переход со страницы пользователей на MyPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPageContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoStyle.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfileInfo/ProfileInfoStyle.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/ProfilePhoto/ProfilePhoto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SASS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/MainContent/MyPage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,19 +74,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage" />
-      <recent name="D:\projects\projectreact\src\components\MainContent\FindUsers" />
-      <recent name="D:\projects\projectreact\src\assets\image" />
-      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\PostscC" />
-      <recent name="D:\projects\projectreact\src\components\MainContent\twocolumn\Messages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\projectreact\src\components\MainContent\MyPage\Posts" />
       <recent name="D:\projects\projectreact\src\components\MainContent\twocolumn\Messages" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\twocolumn" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Posts" />
       <recent name="D:\WebStormProject\projectreact\src\components\MainContent\TabsContent\Post" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\projectreact\src\components\Header" />
+      <recent name="D:\projects\projectreact\src\redux" />
+      <recent name="D:\projects\projectreact\src\components\MainContent\MyPage" />
+      <recent name="D:\projects\projectreact\src\components\MainContent\FindUsers" />
+      <recent name="D:\projects\projectreact\src\assets\image" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -192,7 +187,7 @@
       <workItem from="1588519865335" duration="6034000" />
       <workItem from="1588611579678" duration="2414000" />
       <workItem from="1588755517294" duration="204000" />
-      <workItem from="1588755936523" duration="3930000" />
+      <workItem from="1588755936523" duration="9236000" />
     </task>
     <servers />
   </component>
@@ -287,28 +282,28 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="707" y="187" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1587580286950" />
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1588756310394">
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1588765504204">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588765504204" />
     <state width="1826" height="257" key="GridCell.Tab.0.bottom/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1588756310394">
+    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1588765504203">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
+    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588765504203" />
     <state width="1826" height="257" key="GridCell.Tab.0.center/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1588756310394">
+    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1588765504203">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
+    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588765504203" />
     <state width="1826" height="257" key="GridCell.Tab.0.left/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1588756310394">
+    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1588765504203">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588756310394" />
+    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588765504203" />
     <state width="1826" height="257" key="GridCell.Tab.0.right/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
     <state x="269" y="148" width="1301" height="883" key="SettingsEditor" timestamp="1587580306449">
