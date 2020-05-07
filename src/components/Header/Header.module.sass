@@ -12,14 +12,13 @@
 	z-index: 3
 	.content
 		display: grid
-		grid-template-columns: 17% 27% 7% 40% 11%
+		grid-template-columns: 17% 27% 7% 51%
 		grid-template-rows: minmax(50px, 100%)
 		width: 65%
 		margin: 0 auto
 		align-items: center
 		.logo
 			img
-
 		.search
 			width: 100%
 			input
@@ -33,13 +32,13 @@
 		.notice
 			cursor: pointer
 			&:before
-		.music
-			width: 100%
-			background-color: #4b4f56
 		.dropDown
-			width: 100%
+			width: 11%
+			justify-self: end
+
 			&:hover
-				background: opacify(grey, 0.5)
+				background-color: gray
+				border-radius: 10%
 			a
 				display: flex
 				flex-direction: row
@@ -47,6 +46,8 @@
 				width: 100%
 				align-items: center
 				text-decoration: none
+				color: white
+				height: 2.5rem
 				p
 					font-weight: bold
 					color: #fff

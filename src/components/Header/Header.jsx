@@ -29,14 +29,10 @@ const Header = (props) => {
                 </svg>
 
             </div>
-            <div className={HeaderClass.music}>
-                {props.isAuth ?  props.login : <NavLink to={'/login'}>Login</NavLink>}
-
-            </div>
             <div className={HeaderClass.dropDown}>
                 <a href="">
-                    <p>yaroslav</p>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiHYsRv2lYOnDJm4Akgl82tyw9CHGblj4I4_XGDUeYbS2CMebg" alt=""/>
+                    {props.isAuth ?  props.login : <NavLink to={'/login'} >Login</NavLink>}
+
                     <img className={HeaderClass.menuDown} src="https://cdn.iconscout.com/icon/premium/png-512-thumb/dropdown-menu-1614249-1368951.png" alt=""/>
                 </a>
                 <div className={HeaderClass.dropDownWrap}>
