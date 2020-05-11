@@ -25,13 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="добавляю переход со страницы пользователей на MyPage">
+    <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/findUsersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/findUsersReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,8 +188,19 @@
       <workItem from="1588611579678" duration="2414000" />
       <workItem from="1588755517294" duration="204000" />
       <workItem from="1588755936523" duration="9648000" />
-      <workItem from="1588847459243" duration="4022000" />
+      <workItem from="1588847459243" duration="5033000" />
+      <workItem from="1589107638460" duration="294000" />
+      <workItem from="1589107997474" duration="10129000" />
+      <workItem from="1589205371338" duration="3036000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;добавляю запрос в jsx, follow and unfollow&quot;">
+      <created>1588851683531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851683532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +232,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавляю переход с страницы пользователей на MyPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавляю переход с страницы пользователей на MyPage" />
+    <MESSAGE value="&quot;добавляю запрос в jsx, follow and unfollow&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;добавляю запрос в jsx, follow and unfollow&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="116" key="#ESLint" timestamp="1588081173883">
@@ -268,10 +278,10 @@
     <state x="656" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1587578802956" />
     <state x="661" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.0.1850.1080@70.0.1850.1080" timestamp="1582990332223" />
     <state x="664" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1582735667116" />
-    <state x="503" y="0" key="CommitChangelistDialog2" timestamp="1588528857809">
+    <state x="503" y="0" key="CommitChangelistDialog2" timestamp="1588851680231">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="503" y="0" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1588528857809" />
+    <state x="503" y="0" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1588851680231" />
     <state x="512" y="0" key="CommitChangelistDialog2/74.0.1846.1080@74.0.1846.1080" timestamp="1581927571715" />
     <state x="154" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1586529380856">
       <screen x="62" y="0" width="1858" height="1080" />
@@ -285,28 +295,28 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="707" y="187" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1587580286950" />
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1588847873299">
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1589206043789">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588847873299" />
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1589206043789" />
     <state width="1826" height="257" key="GridCell.Tab.0.bottom/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1588847873299">
+    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1589206043789">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588847873299" />
+    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1589206043789" />
     <state width="1826" height="257" key="GridCell.Tab.0.center/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1588847873299">
+    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1589206043789">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588847873299" />
+    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1589206043789" />
     <state width="1826" height="257" key="GridCell.Tab.0.left/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1588847873299">
+    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1589206043789">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588847873299" />
+    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1589206043789" />
     <state width="1826" height="257" key="GridCell.Tab.0.right/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
     <state x="269" y="148" width="1301" height="883" key="SettingsEditor" timestamp="1587580306449">

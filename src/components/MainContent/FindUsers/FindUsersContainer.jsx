@@ -6,35 +6,35 @@ import {
 	setUsers,
 	unFollow,
 	setCurrentPage,
-	setUsersTotalCount, toggleIsFetching
+	toggleIsFetching, setTotalUsersCount
 } from "../../../redux/findUsersReducer";
 
-import * as axios from "axios";
+
 import FindUsers from "./FindUsers";
 import Preloader from "../../common/preloader/Preloader";
+import {usersAPI} from "../../../api/api";
 
-class FindUsersAPI extends React.Component{
+class FindUsersContainer extends React.Component{
 
 	componentDidMount() {
 		this.props.toggleIsFetching(true);
-		axios.get(`https://social-network.samuraijs.com/api/1.0/users?count=${this.props.totalUsersCount}&page=${this.props.pageSize}`, {
-			withCredentials: true
-		})
-			.then(response => {
+
+		usersAPI.getUsers(this.props.pageSize, this.props.currentPage)
+			.then(data => {
 				this.props.toggleIsFetching(false);
-				this.props.setUsers(response.data.items);
-				this.props.setUsersTotalCount(response.data.totalCount/50);
+				this.props.setUsers(data.items);
+				this.props.setTotalUsersCount(data.totalCount/50);
 			});
 	}
+
 	onPageChanged = (pageNumber) => {
 		this.props.setCurrentPage(pageNumber);
 		this.props.toggleIsFetching(true);
-		axios.get(`https://social-network.samuraijs.com/api/1.0/users?count=${this.props.totalUsersCount}&page=${pageNumber}`, {
-			withCredentials: true
-		})
-			.then(response => {
+
+		usersAPI.getUsers(this.props.pageSize, pageNumber)
+			.then(data => {
 				this.props.toggleIsFetching(false);
-				this.props.setUsers(response.data.items);
+				this.props.setUsers(data.items);
 			});
 	}
 
@@ -56,8 +56,8 @@ class FindUsersAPI extends React.Component{
 let mapStateToProps = (state) => {
 	return {
 		users: state.usersPage.users,
-		totalUsersCount: state.usersPage.totalUsersCount,
 		pageSize: state.usersPage.pageSize,
+		totalUsersCount: state.usersPage.totalUsersCount,
 		currentPage: state.usersPage.currentPage,
 		isFetching: state.usersPage.isFetching,
 	}
@@ -89,5 +89,5 @@ let mapStateToProps = (state) => {
 
 export default connect(mapStateToProps, {
 	follow, unFollow, setUsers,
-	setCurrentPage, setUsersTotalCount, toggleIsFetching})(FindUsersAPI);
+	setCurrentPage, setTotalUsersCount, toggleIsFetching})(FindUsersContainer);
 
