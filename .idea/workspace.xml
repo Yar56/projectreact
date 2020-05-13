@@ -27,9 +27,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ce13f502-a3a5-44c3-a972-0b0eb84d95cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/FindUsers/FindUsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MyPage/MyPageContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/authReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/findUsersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/findUsersReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +80,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -191,7 +200,9 @@
       <workItem from="1588847459243" duration="5033000" />
       <workItem from="1589107638460" duration="294000" />
       <workItem from="1589107997474" duration="10129000" />
-      <workItem from="1589205371338" duration="6800000" />
+      <workItem from="1589205371338" duration="6919000" />
+      <workItem from="1589303537672" duration="5468000" />
+      <workItem from="1589378354140" duration="2953000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;добавляю запрос в jsx, follow and unfollow&quot;">
       <created>1588851683531</created>
@@ -295,28 +306,28 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="707" y="187" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1587580286950" />
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1589211020461">
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom" timestamp="1589378761333">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1589211020461" />
+    <state width="1831" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1589378761333" />
     <state width="1826" height="257" key="GridCell.Tab.0.bottom/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1589211020459">
+    <state width="1831" height="294" key="GridCell.Tab.0.center" timestamp="1589378761332">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1589211020459" />
+    <state width="1831" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1589378761332" />
     <state width="1826" height="257" key="GridCell.Tab.0.center/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1589211020459">
+    <state width="1831" height="294" key="GridCell.Tab.0.left" timestamp="1589378761331">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1589211020459" />
+    <state width="1831" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1589378761331" />
     <state width="1826" height="257" key="GridCell.Tab.0.left/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
-    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1589211020460">
+    <state width="1831" height="294" key="GridCell.Tab.0.right" timestamp="1589378761332">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1589211020460" />
+    <state width="1831" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1589378761332" />
     <state width="1826" height="257" key="GridCell.Tab.0.right/69.0.1851.1080@69.0.1851.1080" timestamp="1584446569452" />
     <state width="1822" height="258" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581958563439" />
     <state x="269" y="148" width="1301" height="883" key="SettingsEditor" timestamp="1587580306449">
