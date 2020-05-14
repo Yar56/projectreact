@@ -8,6 +8,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import MessagesContainer from "./twocolumn/Messages/MessagesContainer";
 import FindUsersContainer from "./FindUsers/FindUsersContainer";
 import MyPageContainer from "./MyPage/MyPageContainer";
+import Login from "./Login/Login";
 
 const MainContent = (props) => {
     return (
@@ -24,7 +25,9 @@ const MainContent = (props) => {
                     </div>
                     {/*<Route path='/photos' render={() => <Photos state={props.state}/> }/>*/}
                     <Route   path='/findUsers' render={ () => <FindUsersContainer/>} />
+                    <Route to='/login'  render={ () => <Login/>}/>
                 </div>
+
             </main>
         </BrowserRouter>
     )

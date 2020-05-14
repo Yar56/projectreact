@@ -3,6 +3,7 @@ import './MessagesStyle.sass';
 import './../twoColumnStyle.sass';
 import Message from "./Message";
 import ContentMessage from "./ContentMessage";
+import Redirect from "react-router-dom/es/Redirect";
 
 
 const Messages = (props) => {
@@ -28,8 +29,9 @@ const Messages = (props) => {
     let onNewMessageChange = (e) => {
         let body = e.target.value;
         props.NewMessageBody(body);
-
     };
+
+
 
     return(
        <>

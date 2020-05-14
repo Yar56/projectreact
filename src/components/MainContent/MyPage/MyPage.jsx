@@ -9,9 +9,11 @@ import Audio from "./Audio/Audio";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import MyPageStyle from './MyPageStyle.module.sass';
 import PostsContainer from "./Posts/PostsContainer";
+import Redirect from "react-router-dom/es/Redirect";
 
 
 const MyPage = (props) => {
+
     return (
         <div className={MyPageStyle.wrapperTabs}>
             <div className={MyPageStyle.firstColumn}>
@@ -25,9 +27,6 @@ const MyPage = (props) => {
                 <Photos />
                 <PostsContainer />
             </div>
-
-
-
         </div>
     )
 };
