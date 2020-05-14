@@ -1,7 +1,8 @@
 import React from "react";
-import ProfileStyle from './ProfileInfoStyle.module.sass'
+import ProfileStyle from './ProfileInfoStyle.module.sass';
 import ProfileInfoContent from "./ProfileInfoContent";
 import Preloader from "../../../common/preloader/Preloader";
+import ProfileStatus from "./ProfileStatus";
 
 
 const ProfileInfo = (props) => {
@@ -17,12 +18,12 @@ const ProfileInfo = (props) => {
         <div className={ProfileStyle.profileInfo}>
             <div className={ProfileStyle.name}>
                 <p>{props.profile.fullName}</p>
-                <button>Изменить статус</button>
+                <ProfileStatus profile={props.profile}/>
             </div>
             <svg viewBox="100 10 800 40" width="600px" xmlns="http://www.w3.org/2000/svg">
                 <line x1="60" y1="30" x2="930" y2="30" stroke="grey"/>
             </svg>
-            {/*{content}*/}
+
             <ProfileInfoContent profile={props.profile}/>
         </div>
     )
